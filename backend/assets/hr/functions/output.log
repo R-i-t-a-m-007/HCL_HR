@@ -1,0 +1,259 @@
+2024-07-16 00:57:07,762 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5002
+2024-07-16 00:57:07,763 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-16 00:57:07,797 - root - INFO - Starting cleanup and archiving process
+2024-07-16 00:57:07,800 - root - ERROR - Error moving output CSV: [WinError 3] The system cannot find the path specified
+2024-07-16 00:57:27,470 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /employee_counts HTTP/1.1" 200 -
+2024-07-16 00:57:27,484 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /handicapped_counts HTTP/1.1" 200 -
+2024-07-16 00:57:27,487 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /category_counts HTTP/1.1" 200 -
+2024-07-16 00:57:27,519 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /position_counts HTTP/1.1" 200 -
+2024-07-16 00:57:27,527 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /sex_counts HTTP/1.1" 200 -
+2024-07-16 00:57:27,537 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /bloodgroup_counts?unit=ICC HTTP/1.1" 200 -
+2024-07-16 00:57:27,793 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /bloodgroup_counts?unit=KCC HTTP/1.1" 200 -
+2024-07-16 00:57:27,815 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /department_counts?unit=HO HTTP/1.1" 200 -
+2024-07-16 00:57:27,816 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /bloodgroup_counts?unit=MCP HTTP/1.1" 200 -
+2024-07-16 00:57:27,848 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /department_counts?unit=ICC HTTP/1.1" 200 -
+2024-07-16 00:57:27,855 - hr - ERROR - Exception on /department_counts [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.InterfaceError: bad parameter or other API misuse
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritam pc\OneDrive\Desktop\HCL_HR\HCL_ETL_Final\backend\assets\hr\functions\hr.py", line 355, in department_counts
+    .count()
+     ^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 3112, in count
+    self._legacy_from_self(col).enable_eagerloads(False).scalar()
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2805, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2778, in one
+    return self._iter().one()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) bad parameter or other API misuse
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT employees.id AS employees_id, employees.unit AS employees_unit, employees.emp_code AS employees_emp_code, employees.sex AS employees_sex, employees.full_name AS employees_full_name, employees.date_of_birth AS employees_date_of_birth, employees.date_of_appointment AS employees_date_of_appointment, employees.grade AS employees_grade, employees.designation AS employees_designation, employees.blood_group AS employees_blood_group, employees.department AS employees_department, employees.cadre AS employees_cadre, employees.employee_category AS employees_employee_category, employees.seniority_position AS employees_seniority_position, employees.employee_type AS employees_employee_type, employees.category AS employees_category, employees.minority_status AS employees_minority_status, employees.religion AS employees_religion, employees.handicap AS employees_handicap, employees.in_time AS employees_in_time, employees.out_time AS employees_out_time 
+FROM employees 
+WHERE employees.unit = ? AND employees.department = ? AND employees.cadre = ?) AS anon_1]
+[parameters: ('MCP', 'Mines', 'No')]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2024-07-16 00:57:27,863 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:27] "GET /department_counts?unit=KCC HTTP/1.1" 200 -
+2024-07-16 00:57:28,143 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:28] "GET /department_counts?unit=Cadre HTTP/1.1" 200 -
+2024-07-16 00:57:28,165 - hr - ERROR - Exception on /employee_category_counts [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.InterfaceError: bad parameter or other API misuse
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritam pc\OneDrive\Desktop\HCL_HR\HCL_ETL_Final\backend\assets\hr\functions\hr.py", line 472, in employee_category_counts
+    .scalar()
+     ^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2805, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2778, in one
+    return self._iter().one()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) bad parameter or other API misuse
+[SQL: SELECT count(*) AS count_1 
+FROM employees 
+WHERE employees.employee_type = ? AND employees.employee_category = ? AND employees.sex = ?]
+[parameters: ('Executive', 'E8', 'Male ')]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2024-07-16 00:57:28,171 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:28] "[35m[1mGET /department_counts?unit=MCP HTTP/1.1[0m" 500 -
+2024-07-16 00:57:28,172 - hr - ERROR - Exception on /employee_category_counts [GET]
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.InterfaceError: bad parameter or other API misuse
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritam pc\OneDrive\Desktop\HCL_HR\HCL_ETL_Final\backend\assets\hr\functions\hr.py", line 483, in employee_category_counts
+    .scalar()
+     ^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2805, in scalar
+    ret = self.one()
+          ^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2778, in one
+    return self._iter().one()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\session.py", line 2236, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\orm\context.py", line 293, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2353, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) bad parameter or other API misuse
+[SQL: SELECT count(*) AS count_1 
+FROM employees 
+WHERE employees.employee_type = ? AND employees.employee_category = ? AND employees.sex = ?]
+[parameters: ('Technical', 'T2', 'Female')]
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2024-07-16 00:57:28,176 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:28] "GET /employee_category_counts?employee_type=Non-Technical HTTP/1.1" 200 -
+2024-07-16 00:57:28,180 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:28] "[35m[1mGET /employee_category_counts?employee_type=Executive HTTP/1.1[0m" 500 -
+2024-07-16 00:57:28,185 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 00:57:28] "[35m[1mGET /employee_category_counts?employee_type=Technical HTTP/1.1[0m" 500 -
+2024-07-16 01:04:51,218 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /handicapped_counts HTTP/1.1" 200 -
+2024-07-16 01:04:51,221 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /employee_counts HTTP/1.1" 200 -
+2024-07-16 01:04:51,231 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /sex_counts HTTP/1.1" 200 -
+2024-07-16 01:04:51,273 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /bloodgroup_counts?unit=ICC HTTP/1.1" 200 -
+2024-07-16 01:04:51,300 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /bloodgroup_counts?unit=MCP HTTP/1.1" 200 -
+2024-07-16 01:04:51,319 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /bloodgroup_counts?unit=KCC HTTP/1.1" 200 -
+2024-07-16 01:04:51,581 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /department_counts?unit=HO HTTP/1.1" 200 -
+2024-07-16 01:04:51,629 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /department_counts?unit=ICC HTTP/1.1" 200 -
+2024-07-16 01:04:51,640 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /department_counts?unit=MCP HTTP/1.1" 200 -
+2024-07-16 01:04:51,645 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /department_counts?unit=KCC HTTP/1.1" 200 -
+2024-07-16 01:04:51,785 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /department_counts?unit=Cadre HTTP/1.1" 200 -
+2024-07-16 01:04:51,939 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:51] "GET /employee_category_counts?employee_type=Executive HTTP/1.1" 200 -
+2024-07-16 01:04:52,045 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:52] "GET /employee_category_counts?employee_type=Technical HTTP/1.1" 200 -
+2024-07-16 01:04:52,104 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:52] "GET /employee_category_counts?employee_type=Non-Technical HTTP/1.1" 200 -
+2024-07-16 01:04:52,108 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:52] "GET /position_counts HTTP/1.1" 200 -
+2024-07-16 01:04:52,110 - werkzeug - INFO - 127.0.0.1 - - [16/Jul/2024 01:04:52] "GET /category_counts HTTP/1.1" 200 -

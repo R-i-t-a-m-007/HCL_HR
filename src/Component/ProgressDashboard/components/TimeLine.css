@@ -1,0 +1,70 @@
+.timeLine {
+    display: flex;
+    position: relative;
+    margin: 2em auto;
+    width: 100%;
+}
+
+.timeLine ::after, .timeLine ::before, .timeLine .datePointer, .timeLine .percentage {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.673);
+}
+
+.timeLine .percentage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.timeLine ::after, .timeLine ::before {
+    min-width: 9em;
+}
+
+.timeLine .datePointer {
+    bottom: -1.5em;
+}
+
+.timeLine ::before {
+    top: -1.5em;
+}
+
+.timeLine ::after {
+    bottom: -1.5em;
+}
+
+.timeLine #bar {
+    display: flex;
+    width: 100%;
+}
+
+.timeLine #bar > div {
+    height: 2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+#a::before {
+    content: 'Start date';
+}
+
+#b::before {
+    content: 'Actual Start date';
+}
+
+#c::before {
+    content: 'End date';
+}
+
+#end::before {
+    content: 'Actual End date';
+    right: -1.5em;
+}
+
+.timeLineBar .dateRange {
+    display: flex;
+}

@@ -1,0 +1,117 @@
+.expandableOption {
+    position: relative;
+    z-index: 100;
+    padding: 8px 0;
+    border-radius: 6px;
+  }
+  
+  .expandableOption > .label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .expandableSideNav .expandableSideNav {
+    left: 158px;
+  }
+  
+  .expandableSideNav {
+    background: white;
+    color: black !important;
+    width: 160px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 0;
+    /* left: 209px; */
+    left: 162px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,1);
+    font-size: 14px;
+    border-top: 4px solid rgb(88, 28, 135);;
+  }
+  
+  .expandableSideNav > div {
+    padding: 6px 0;
+  }
+  
+  .expandableSideNav .subOption {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-radius: 6px;
+    padding-left: 10px;
+  }
+  
+  .navItem {
+    height: 50px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 90%;
+  }
+  
+  .navItem.active {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.19);
+    /* background-image: linear-gradient(to right, var(--deepblue) , var(--blue)); */
+    background-color: var(--deepblue);
+    color: white;
+  }
+  
+  .navItem.active .navName {
+    font-weight: 600 !important;
+  }
+  
+  .navItem:not(.navItem.active):hover,
+  .expandableOption:hover,
+  .subOption:hover {
+    background-color: var(--color-lightpurple);
+  }
+  
+  .navGroup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navIcon {
+    background-color: rgb(88, 28, 135);
+    color: white;
+    min-height: 33px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+  
+  .navX {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar {
+    /* width: 173px;
+    background-color: var(--color-lightgrey); */
+    background: #e3e3e3;
+    min-width: 205px;
+    max-width: 205px;
+    padding-left: 11px;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .subNav {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+    /* margin-top: 6rem; */
+  }
+  
+  .navName {
+    min-width: 110px;
+    padding-left: 14px;
+    font-weight: 600;
+  }
+  
+  .subNavName {
+    min-width: 70px;
+  }

@@ -1,0 +1,12 @@
+Sl.No,Overall_performance,Unit,Daily_target,Monthly_target,Daily_progress,Monthly_progress,Cumulative_progress
+1,Total Open Pit Excavation,Cubic Meter,32.25806452,1000,32,610.31,22965.56
+2,Total Open Pit Ore,Tonnes,967.7419355,30000,0,26460,893640
+3,Total Development Ore - UG,Tonnes,274.516129,8510,0,0,29526
+4,Total Production Ore - UG,Tonnes,25,560,150,6500,35699
+5,Ore,Tonnes,1267.258065,39070,150,32960,958865
+6,Ore Grade (%Cu),(%),0.9,0.9,0.85,0.89,0.915
+7,Crushing,Tonnes,369.3548387,11450,130.6,3306.795,43551.555
+8,Milling,Tonnes,2419.354839,75000,3023.5,52144.1,43552.555
+9,Concentrate (WMT),Tonnes,2419.354839,75000,1701.2,47859.35,43553.555
+10,MIC,Tonnes,4838.709677,150000,4724.7,100003.45,43554.555
+11,Concentrate Dispatched (WMT),Tonnes,2419.354839,75000,3023.5,52144.1,43555.555

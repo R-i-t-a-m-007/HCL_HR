@@ -1,0 +1,89 @@
+Unit,Emp Code,Sex,Full Name,Date of Birth,Date of Appointment,Grade,Designations,Blood  Group,Department,Cadre,Employee Category,Seniority  Position,Employee Type,Category,Minority  Status,RELIGION,Handicap,In Time,Out Time
+MCP,11063.0,Male ,"Bisoi, Kali Prasad",1983-10-07 00:00:00,2023-11-18,A,Mining Engineer,A+,Mines,Yes,E0,Senior,Executive,General,,,Yes,08:43:03,18:21:21
+MCP,12006.0,Male ,"Dadhich, Naveen Kumar",1975-05-05 00:00:00,2023-04-15,A,Mining Engineer,O+,Mines,No,E2,Senior,Executive,SC,,,Yes,10:06:48,21:08:42
+MCP,12023.0,Female,"Sharma, Ashutosh",1988-09-19 00:00:00,2023-03-05,B,Mining Engineer,B+,Mines,Yes,T2,Junior,Technical,SC,,,No,09:28:04,18:50:30
+MCP,13027.0,Female,"Singh, Vikash Kumar",1988-09-27 00:00:00,2023-02-22,C,Mining Engineer,AB-,Mines,No,T6,Junior,Technical,General,,,No,09:25:00,21:49:05
+MCP,14039.0,Female,"Gupta, Binod Kumar",1989-08-09 00:00:00,2023-02-23,B,Mining Engineer,A+,Mines,Yes,T9,Intermediate,Technical,General,,,No,09:59:20,21:00:42
+MCP,14044.0,Female,"Bhonsle, Charusheela",1977-05-22 00:00:00,2023-10-20,A,Mining Engineer,B-,Mines,No,T2,Trainee,Technical,ST,,,No,09:22:49,09:22:49
+MCP,14045.0,Female,"Mukherjee, Sruti",1979-05-24 00:00:00,2023-07-10,B,Mining Engineer,O-,Mines,No,T1,Trainee,Technical,ST,,,No,09:40:42,18:34:33
+MCP,14066.0,Male ,"Vijay, Venu",1983-02-18 00:00:00,2024-02-19,A,Mining Researcher,O+,Mines,Yes,T7,Trainee,Technical,ST,,,Yes,10:06:50,20:33:20
+HO,14069.0,Female,"Kumar, Kaushlendra",1970-11-02 00:00:00,2023-10-28,B,Mining Researcher,AB-,Mines,No,E11,Senior,Executive,ST,,,Yes,09:32:21,19:00:14
+HO,15004.0,Male ,"Sahoo, Pranati",1988-07-01 00:00:00,2023-07-07,A,Mining Researcher,A+,Mines,No,E3,Senior,Executive,OBC,,,Yes,10:00:58,18:45:01
+HO,15019.0,Female,"Rao, Akkati Raghavendhar",1974-12-01 00:00:00,2023-04-28,A,Mining Researcher,AB+,Mines,Yes,T4,Junior,Technical,OBC,,,No,09:38:18,17:56:29
+HO,15027.0,Male ,"Kumar, Sunil",1974-02-21 00:00:00,2023-01-13,A,Mining Researcher,AB-,Mines,Yes,T10,Junior,Technical,General,,,No,09:31:27,21:08:47
+HO,15050.0,Male ,"Sarkar, Tamal",1988-04-07 00:00:00,2024-02-18,B,Mining Researcher,AB-,Mines,No,T1,Intermediate,Technical,General,,,Yes,09:24:31,19:47:21
+HO,15052.0,Male ,"Ishi, Rahul Jagannath",1983-07-20 00:00:00,2023-12-12,C,Mining Researcher,A-,Mines,No,T3,Trainee,Technical,SC,,,Yes,09:33:54,19:53:24
+HO,15054.0,Male ,"Paulchowdhury, Sayan",1977-07-15 00:00:00,2023-10-02,B,Mining Researcher,B+,Mines,No,E9,Senior,Executive,ST,,,No,10:09:58,19:20:55
+HO,15060.0,Male ,"Dev, Mritunjay Kumar",10/18/81,2023-04-24,B,Mining Researcher,O+,Mines,No,E0,Senior,Executive,SC,,,No,09:24:27,19:47:20
+HO,15064.0,Female,"Kumar, Ritesh",04/17/66,2024-02-06,"A
+",Mining Researcher,O-,Mines,Yes,E8,Junior,Executive,ST,,,No,09:33:11,18:49:51
+HO,16017.0,Female,"Sethi, Himansu Kumar",10/27/70,2023-09-14,B,Mining Researcher,AB+,Mines,No,C1,Junior,Non-Technical,SC,,,No,09:29:44,18:40:09
+HO,16021.0,Female,"Choudhari, Mukesh Kushal",1986-04-04 00:00:00,2023-01-08,A,Mining Researcher,A+,Mines,Yes,C2,Intermediate,Non-Technical,OBC,,,No,09:33:06,18:07:56
+HO,16022.0,Male ,"Mahapatra, Babul Kumar",1979-06-04 00:00:00,2023-01-30,A,Mining Researcher,AB-,Mines,No,C6,Trainee,Non-Technical,OBC,,,Yes,09:38:13,16:54:00
+HO,17003.0,Male ,"Kispotta, Achin Shahil",12/22/70,2023-02-08,A,Mining Researcher,A+,Mines,No,E6,Senior,Executive,General,,,Yes,10:11:55,18:58:25
+MCP,11063.0,Male ,"Bisoi, Kali Prasad",1983-10-07 00:00:00,2023-11-18,A,Mining Engineer,A+,Mines,Yes,E0,Senior,Executive,General,,,Yes,08:43:03,18:21:21
+MCP,12006.0,Male ,"Dadhich, Naveen Kumar",1975-05-05 00:00:00,2023-04-15,A,Mining Engineer,O+,Mines,No,E2,Senior,Executive,SC,,,Yes,10:06:48,21:08:42
+MCP,12023.0,Female,"Sharma, Ashutosh",1988-09-19 00:00:00,2023-03-05,B,Mining Engineer,B+,Mines,Yes,T2,Junior,Technical,SC,,,No,09:28:04,18:50:30
+MCP,13027.0,Female,"Singh, Vikash Kumar",1988-09-27 00:00:00,2023-02-22,C,Mining Engineer,AB-,Mines,No,T6,Junior,Technical,General,,,No,09:25:00,21:49:05
+MCP,14039.0,Female,"Gupta, Binod Kumar",1989-08-09 00:00:00,2023-02-23,B,Mining Engineer,A+,Mines,Yes,T9,Intermediate,Technical,General,,,No,09:59:20,21:00:42
+MCP,14044.0,Female,"Bhonsle, Charusheela",1977-05-22 00:00:00,2023-10-20,A,Mining Engineer,B-,Mines,No,T2,Trainee,Technical,ST,,,No,09:22:49,09:22:49
+MCP,14045.0,Female,"Mukherjee, Sruti",1979-05-24 00:00:00,2023-07-10,B,Mining Engineer,O-,Mines,No,T1,Trainee,Technical,ST,,,No,09:40:42,18:34:33
+MCP,14066.0,Male ,"Vijay, Venu",1983-02-18 00:00:00,2024-02-19,A,Mining Researcher,O+,Mines,Yes,T7,Trainee,Technical,ST,,,Yes,10:06:50,20:33:20
+HO,14069.0,Female,"Kumar, Kaushlendra",1970-11-02 00:00:00,2023-10-28,B,Mining Researcher,AB-,Mines,No,E11,Senior,Executive,ST,,,Yes,09:32:21,19:00:14
+HO,15004.0,Male ,"Sahoo, Pranati",1988-07-01 00:00:00,2023-07-07,A,Mining Researcher,A+,Mines,No,E3,Senior,Executive,OBC,,,Yes,10:00:58,18:45:01
+HO,15019.0,Female,"Rao, Akkati Raghavendhar",1974-12-01 00:00:00,2023-04-28,A,Mining Researcher,AB+,Mines,Yes,T4,Junior,Technical,OBC,,,No,09:38:18,17:56:29
+HO,15027.0,Male ,"Kumar, Sunil",1974-02-21 00:00:00,2023-01-13,A,Mining Researcher,AB-,Mines,Yes,T10,Junior,Technical,General,,,No,09:31:27,21:08:47
+HO,15050.0,Male ,"Sarkar, Tamal",1988-04-07 00:00:00,2024-02-18,B,Mining Researcher,AB-,Mines,No,T1,Intermediate,Technical,General,,,Yes,09:24:31,19:47:21
+HO,15052.0,Male ,"Ishi, Rahul Jagannath",1983-07-20 00:00:00,2023-12-12,C,Mining Researcher,A-,Mines,No,T3,Trainee,Technical,SC,,,Yes,09:33:54,19:53:24
+HO,15054.0,Male ,"Paulchowdhury, Sayan",1977-07-15 00:00:00,2023-10-02,B,Mining Researcher,B+,Mines,No,E9,Senior,Executive,ST,,,No,10:09:58,19:20:55
+HO,15060.0,Male ,"Dev, Mritunjay Kumar",10/18/81,2023-04-24,B,Mining Researcher,O+,Mines,No,E0,Senior,Executive,SC,,,No,09:24:27,19:47:20
+HO,15064.0,Female,"Kumar, Ritesh",04/17/66,2024-02-06,"A
+",Mining Researcher,O-,Mines,Yes,E8,Junior,Executive,ST,,,No,09:33:11,18:49:51
+HO,16017.0,Female,"Sethi, Himansu Kumar",10/27/70,2023-09-14,B,Mining Researcher,AB+,Mines,No,C1,Junior,Non-Technical,SC,,,No,09:29:44,18:40:09
+HO,16021.0,Female,"Choudhari, Mukesh Kushal",1986-04-04 00:00:00,2023-01-08,A,Mining Researcher,A+,Mines,Yes,C2,Intermediate,Non-Technical,OBC,,,No,09:33:06,18:07:56
+HO,16022.0,Male ,"Mahapatra, Babul Kumar",1979-06-04 00:00:00,2023-01-30,A,Mining Researcher,AB-,Mines,No,C6,Trainee,Non-Technical,OBC,,,Yes,09:38:13,16:54:00
+HO,17003.0,Male ,"Kispotta, Achin Shahil",12/22/70,2023-02-08,A,Mining Researcher,A+,Mines,No,E6,Senior,Executive,General,,,Yes,10:11:55,18:58:25
+MCP,11063.0,Male ,"Bisoi, Kali Prasad",1983-10-07 00:00:00,2023-11-18,A,Mining Engineer,A+,Mines,Yes,E0,Senior,Executive,General,,,Yes,08:43:03,18:21:21
+MCP,12006.0,Male ,"Dadhich, Naveen Kumar",1975-05-05 00:00:00,2023-04-15,A,Mining Engineer,O+,Mines,No,E2,Senior,Executive,SC,,,Yes,10:06:48,21:08:42
+MCP,12023.0,Female,"Sharma, Ashutosh",1988-09-19 00:00:00,2023-03-05,B,Mining Engineer,B+,Mines,Yes,T2,Junior,Technical,SC,,,No,09:28:04,18:50:30
+MCP,13027.0,Female,"Singh, Vikash Kumar",1988-09-27 00:00:00,2023-02-22,C,Mining Engineer,AB-,Mines,No,T6,Junior,Technical,General,,,No,09:25:00,21:49:05
+MCP,14039.0,Female,"Gupta, Binod Kumar",1989-08-09 00:00:00,2023-02-23,B,Mining Engineer,A+,Mines,Yes,T9,Intermediate,Technical,General,,,No,09:59:20,21:00:42
+MCP,14044.0,Female,"Bhonsle, Charusheela",1977-05-22 00:00:00,2023-10-20,A,Mining Engineer,B-,Mines,No,T2,Trainee,Technical,ST,,,No,09:22:49,09:22:49
+MCP,14045.0,Female,"Mukherjee, Sruti",1979-05-24 00:00:00,2023-07-10,B,Mining Engineer,O-,Mines,No,T1,Trainee,Technical,ST,,,No,09:40:42,18:34:33
+MCP,14066.0,Male ,"Vijay, Venu",1983-02-18 00:00:00,2024-02-19,A,Mining Researcher,O+,Mines,Yes,T7,Trainee,Technical,ST,,,Yes,10:06:50,20:33:20
+HO,14069.0,Female,"Kumar, Kaushlendra",1970-11-02 00:00:00,2023-10-28,B,Mining Researcher,AB-,Mines,No,E11,Senior,Executive,ST,,,Yes,09:32:21,19:00:14
+HO,15004.0,Male ,"Sahoo, Pranati",1988-07-01 00:00:00,2023-07-07,A,Mining Researcher,A+,Mines,No,E3,Senior,Executive,OBC,,,Yes,10:00:58,18:45:01
+HO,15019.0,Female,"Rao, Akkati Raghavendhar",1974-12-01 00:00:00,2023-04-28,A,Mining Researcher,AB+,Mines,Yes,T4,Junior,Technical,OBC,,,No,09:38:18,17:56:29
+HO,15027.0,Male ,"Kumar, Sunil",1974-02-21 00:00:00,2023-01-13,A,Mining Researcher,AB-,Mines,Yes,T10,Junior,Technical,General,,,No,09:31:27,21:08:47
+HO,15050.0,Male ,"Sarkar, Tamal",1988-04-07 00:00:00,2024-02-18,B,Mining Researcher,AB-,Mines,No,T1,Intermediate,Technical,General,,,Yes,09:24:31,19:47:21
+HO,15052.0,Male ,"Ishi, Rahul Jagannath",1983-07-20 00:00:00,2023-12-12,C,Mining Researcher,A-,Mines,No,T3,Trainee,Technical,SC,,,Yes,09:33:54,19:53:24
+HO,15054.0,Male ,"Paulchowdhury, Sayan",1977-07-15 00:00:00,2023-10-02,B,Mining Researcher,B+,Mines,No,E9,Senior,Executive,ST,,,No,10:09:58,19:20:55
+HO,15060.0,Male ,"Dev, Mritunjay Kumar",10/18/81,2023-04-24,B,Mining Researcher,O+,Mines,No,E0,Senior,Executive,SC,,,No,09:24:27,19:47:20
+HO,15064.0,Female,"Kumar, Ritesh",04/17/66,2024-02-06,"A
+",Mining Researcher,O-,Mines,Yes,E8,Junior,Executive,ST,,,No,09:33:11,18:49:51
+HO,16017.0,Female,"Sethi, Himansu Kumar",10/27/70,2023-09-14,B,Mining Researcher,AB+,Mines,No,C1,Junior,Non-Technical,SC,,,No,09:29:44,18:40:09
+HO,16021.0,Female,"Choudhari, Mukesh Kushal",1986-04-04 00:00:00,2023-01-08,A,Mining Researcher,A+,Mines,Yes,C2,Intermediate,Non-Technical,OBC,,,No,09:33:06,18:07:56
+HO,16022.0,Male ,"Mahapatra, Babul Kumar",1979-06-04 00:00:00,2023-01-30,A,Mining Researcher,AB-,Mines,No,C6,Trainee,Non-Technical,OBC,,,Yes,09:38:13,16:54:00
+HO,17003.0,Male ,"Kispotta, Achin Shahil",12/22/70,2023-02-08,A,Mining Researcher,A+,Mines,No,E6,Senior,Executive,General,,,Yes,10:11:55,18:58:25
+MCP,11063.0,Male ,"Bisoi, Kali Prasad",1983-10-07 00:00:00,2023-11-18,A,Mining Engineer,A+,Mines,Yes,E0,Senior,Executive,General,,,Yes,08:43:03,18:21:21
+MCP,12006.0,Male ,"Dadhich, Naveen Kumar",1975-05-05 00:00:00,2023-04-15,A,Mining Engineer,O+,Mines,No,E2,Senior,Executive,SC,,,Yes,10:06:48,21:08:42
+MCP,12023.0,Female,"Sharma, Ashutosh",1988-09-19 00:00:00,2023-03-05,B,Mining Engineer,B+,Mines,Yes,T2,Junior,Technical,SC,,,No,09:28:04,18:50:30
+MCP,13027.0,Female,"Singh, Vikash Kumar",1988-09-27 00:00:00,2023-02-22,C,Mining Engineer,AB-,Mines,No,T6,Junior,Technical,General,,,No,09:25:00,21:49:05
+MCP,14039.0,Female,"Gupta, Binod Kumar",1989-08-09 00:00:00,2023-02-23,B,Mining Engineer,A+,Mines,Yes,T9,Intermediate,Technical,General,,,No,09:59:20,21:00:42
+MCP,14044.0,Female,"Bhonsle, Charusheela",1977-05-22 00:00:00,2023-10-20,A,Mining Engineer,B-,Mines,No,T2,Trainee,Technical,ST,,,No,09:22:49,09:22:49
+MCP,14045.0,Female,"Mukherjee, Sruti",1979-05-24 00:00:00,2023-07-10,B,Mining Engineer,O-,Mines,No,T1,Trainee,Technical,ST,,,No,09:40:42,18:34:33
+MCP,14066.0,Male ,"Vijay, Venu",1983-02-18 00:00:00,2024-02-19,A,Mining Researcher,O+,Mines,Yes,T7,Trainee,Technical,ST,,,Yes,10:06:50,20:33:20
+HO,14069.0,Female,"Kumar, Kaushlendra",1970-11-02 00:00:00,2023-10-28,B,Mining Researcher,AB-,Mines,No,E11,Senior,Executive,ST,,,Yes,09:32:21,19:00:14
+HO,15004.0,Male ,"Sahoo, Pranati",1988-07-01 00:00:00,2023-07-07,A,Mining Researcher,A+,Mines,No,E3,Senior,Executive,OBC,,,Yes,10:00:58,18:45:01
+HO,15019.0,Female,"Rao, Akkati Raghavendhar",1974-12-01 00:00:00,2023-04-28,A,Mining Researcher,AB+,Mines,Yes,T4,Junior,Technical,OBC,,,No,09:38:18,17:56:29
+HO,15027.0,Male ,"Kumar, Sunil",1974-02-21 00:00:00,2023-01-13,A,Mining Researcher,AB-,Mines,Yes,T10,Junior,Technical,General,,,No,09:31:27,21:08:47
+HO,15050.0,Male ,"Sarkar, Tamal",1988-04-07 00:00:00,2024-02-18,B,Mining Researcher,AB-,Mines,No,T1,Intermediate,Technical,General,,,Yes,09:24:31,19:47:21
+HO,15052.0,Male ,"Ishi, Rahul Jagannath",1983-07-20 00:00:00,2023-12-12,C,Mining Researcher,A-,Mines,No,T3,Trainee,Technical,SC,,,Yes,09:33:54,19:53:24
+HO,15054.0,Male ,"Paulchowdhury, Sayan",1977-07-15 00:00:00,2023-10-02,B,Mining Researcher,B+,Mines,No,E9,Senior,Executive,ST,,,No,10:09:58,19:20:55
+HO,15060.0,Male ,"Dev, Mritunjay Kumar",10/18/81,2023-04-24,B,Mining Researcher,O+,Mines,No,E0,Senior,Executive,SC,,,No,09:24:27,19:47:20
+HO,15064.0,Female,"Kumar, Ritesh",04/17/66,2024-02-06,"A
+",Mining Researcher,O-,Mines,Yes,E8,Junior,Executive,ST,,,No,09:33:11,18:49:51
+HO,16017.0,Female,"Sethi, Himansu Kumar",10/27/70,2023-09-14,B,Mining Researcher,AB+,Mines,No,C1,Junior,Non-Technical,SC,,,No,09:29:44,18:40:09
+HO,16021.0,Female,"Choudhari, Mukesh Kushal",1986-04-04 00:00:00,2023-01-08,A,Mining Researcher,A+,Mines,Yes,C2,Intermediate,Non-Technical,OBC,,,No,09:33:06,18:07:56
+HO,16022.0,Male ,"Mahapatra, Babul Kumar",1979-06-04 00:00:00,2023-01-30,A,Mining Researcher,AB-,Mines,No,C6,Trainee,Non-Technical,OBC,,,Yes,09:38:13,16:54:00
+HO,17003.0,Male ,"Kispotta, Achin Shahil",12/22/70,2023-02-08,A,Mining Researcher,A+,Mines,No,E6,Senior,Executive,General,,,Yes,10:11:55,18:58:25

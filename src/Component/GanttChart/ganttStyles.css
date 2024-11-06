@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+  }
+  .ViewContainer {
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  
+  .Button {
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    padding: 7px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+  }
+  .Switch {
+    margin: 4px 15px;
+    font-size: 14px;
+    font-family: "Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Switch_Toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .Switch_Toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .Slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .Slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 6px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .Slider {
+    background-color: #2196f3;
+  }
+  
+  input:focus + .Slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  
+  input:checked + .Slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .rows > rect {
+    fill: #ffffff;
+  }
+  
+  .rows > rect:hover {
+    fill: #ebecef;
+  }
+  
+  .rows > rect:nth-child(even) {
+    fill: #f4f5f7;
+  }
+  
+  .rows > rect:nth-child(even):hover {
+    fill: #ebecef;
+  }
+  
+  .calendar > rect {
+    fill: #f4f5f7;
+  }
+
+
+
+
+  .Wrapper {
+    overflow-x: auto;
+    /* max-width: 77.2vw;  */
+    box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.10);
+    margin-bottom: 2rem;
+    overflow: auto;
+  }
+
+  /* .Wrapper .todayMargin {
+    background: var(--blue);
+    height: 20.7rem;
+    width: 5px;
+    position: absolute;
+    z-index: 1;
+  } */
+
+  .Wrapper .today rect {
+    width: 5px !important;
+    cursor: pointer;
+  }
+
+  .Wrapper .today::after {
+    content: "today";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px; /* Adjust the width based on your Gantt chart configuration */
+    height: 100%;
+    background: rgba(255, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    z-index: 2;
+  }
+
+
+
+
+  /* ////////////////////////////////////////////////////////// */
+
+  /* @media screen and (max-width: 1918px) {
+    .Wrapper {
+      width: 81.7vw;
+    }
+  }
+
+  @media screen and (max-width: 1909px) {
+    .Wrapper {
+      width: 81.5vw;
+    }
+  }
+
+  @media screen and (max-width: 1889px) {
+    .Wrapper {
+      width: 81.3vw;
+    }
+  }
+
+  @media screen and (max-width: 1539px) {
+    .Wrapper {
+      width: 77vw;
+    }
+  }
+  
+  @media screen and (max-width: 1519px) {
+    .Wrapper {
+      width: 76.8vw;
+    }
+  }
+  
+  @media screen and (max-width: 1506px) {
+    .Wrapper {
+      width: 76.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 1487px) {
+    .Wrapper {
+      width: 76vw;
+    }
+  }
+  
+  @media screen and (max-width: 1456px) {
+    .Wrapper {
+      width: 75vw;
+    }
+  }
+  
+  @media screen and (max-width: 1425px) {
+    .Wrapper {
+      width: 75vw;
+    }
+  }
+  
+  @media screen and (max-width: 1398px) {
+    .Wrapper {
+      width: 74.4vw;
+    }
+  }
+  
+  @media screen and (max-width: 1364px) {
+    .Wrapper {
+      width: 74vw;
+    }
+  }
+  
+  @media screen and (max-width: 1344px) {
+    .Wrapper {
+      width: 73.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 1319px) {
+    .Wrapper {
+      width: 73.4vw;
+    }
+  }
+  
+  @media screen and (max-width: 1313px) {
+    .Wrapper {
+      width: 73vw;
+    }
+  }
+  
+  @media screen and (max-width: 1294px) {
+    .Wrapper {
+      width: 72.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 1271px) {
+    .Wrapper {
+      width: 72vw;
+    }
+  }
+  
+  @media screen and (max-width: 1248px) {
+    .Wrapper {
+      width: 71.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 1226px) {
+    .Wrapper {
+      width: 70vw;
+    }
+  }
+  
+  @media screen and (max-width: 1165px) {
+    .Wrapper {
+      width: 69vw;
+    }
+  }
+  
+  @media screen and (max-width: 1127px) {
+    .Wrapper {
+      width: 68vw;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .Wrapper {
+      width: 100%;
+    }
+  }
+  
+   */

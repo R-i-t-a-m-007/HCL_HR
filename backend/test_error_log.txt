@@ -1,0 +1,4 @@
+ERROR:root:An error occurred: This is a test error
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 576-502-243
+INFO:werkzeug: * Detected change in 'C:\\Users\\Ditipriya\\HCL_ETL_Final\\backend\\app.py', reloading

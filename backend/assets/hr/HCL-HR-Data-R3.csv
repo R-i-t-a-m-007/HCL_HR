@@ -1,0 +1,323 @@
+Unit,Emp Code,Sex,Full Name,Date of Birth,Grade,Designations,Blood  Group,Department,ET,Category,Religion,Handicap,Positions,Shift Start,Shift End,Employee Type,Employee Category
+MCP,10026,Male,"Adinolfi, Wilson  K",07-Oct-83,A,Mining Engineer,A+,Operations,Active,General,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E0
+MCP,10084,Male,"Ait Sidi, Karthikeyan   ",05-May-75,A,Mining Engineer,O+,Mines,Voluntarily Terminated,SC,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E2
+MCP,10196,Female,"Akinkuolie, Sarah",19-Sep-88,B,Mining Engineer,B+,Mines,Voluntarily Terminated,SC,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T2
+MCP,10088,Female,"Alagbe,Trina",27-Sep-88,C,Mining Engineer,AB-,Mines,Active,General,Muslim,No,Junior,12:00 AM,8:00 PM,Technical,T6
+MCP,10069,Female,"Anderson, Carol ",09-Aug-89,B,Mining Engineer,A+,Mines,Voluntarily Terminated,General,Christian,No,Intermediate,8:00 PM,4:00 AM,Technical,T9
+MCP,10002,Female,"Anderson, Linda  ",22-May-77,A,Mining Engineer,B-,Operations,Active,ST,Hindu,No,Trainee,8:00 PM,4:00 AM,Technical,T2
+MCP,10194,Female,"Andreola, Colby",24-May-79,B,Mining Engineer,O-,Mines,Active,ST,Christian,No,Trainee,8:00 AM,4:00 PM,Technical,T1
+MCP,10062,Male,"Athwal, Sam",18-Feb-83,A,Mining Researcher,O+,Mines,Active,ST,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Technical,T7
+HO,10114,Female,"Bachiochi, Linda",02-Nov-70,B,Mining Researcher,AB-,Mines,Active,ST,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E11
+HO,10250,Male,"Bacong, Alejandro ",01-Jul-88,A,Mining Researcher,A+,Mines,Active,OBC,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E3
+HO,10252,Female,"Baczenski, Rachael  ",01-Dec-74,A,Mining Researcher,AB+,Operations,Voluntarily Terminated,OBC,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T4
+HO,10242,Male,"Barbara, Thomas",21-Feb-74,A,Mining Researcher,AB-,Mines,Voluntarily Terminated,General,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T10
+HO,10012,Male,"Barbossa, Hector",07-Apr-88,B,Mining Researcher,AB-,Mines,Active,General,Hindu,Yes,Intermediate,8:00 AM,4:00 PM,Technical,T1
+HO,10265,Male,"Barone, Francesco  A",20-Jul-83,C,Mining Researcher,A-,Mines,Active,SC,Muslim,Yes,Trainee,8:00 AM,4:00 PM,Technical,T3
+HO,10066,Male,"Barton, Nader",15-Jul-77,B,Mining Researcher,B+,Mines,Voluntarily Terminated,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E9
+HO,10061,Male,"Bates, Norman",18-Oct-81,B,Mining Researcher,O+,Mines,Terminated for Cause,SC,Muslim,No,Senior,10:00 AM,6:00 PM,Executive,E0
+HO,10023,Female,"Beak, Kimberly  ",04-Oct-66,"A
+",Mining Researcher,O-,Mines,Active,ST,Christian,No,Junior,10:00 AM,6:00 PM,Executive,E8
+HO,10055,Female,"Beatrice, Courtney ",24-Nov-81,B,Mining Researcher,AB+,Operations,Active,SC,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C1
+HO,10245,Female,"Becker, Renee",04-Apr-86,A,Mining Researcher,A+,Mines,Terminated for Cause,OBC,Christian,No,Intermediate,8:00 AM,4:00 PM,Non-Technical,C2
+HO,10277,Male,"Becker, Scott",04-Jun-79,A,Mining Researcher,AB-,Mines,Active,OBC,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C6
+HO,10046,Male,"Bernstein, Sean",07-Oct-83,A,Mining Researcher,A+,Mines,Active,General,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E6
+HO,10226,Female,"Biden, Lowan  M",05-May-75,B,Mining Researcher,A-,Operations,Active,SC,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E8
+HO,10003,Female,"Billis, Helen",19-Sep-88,A,Mining Researcher,AB+,Mines,Active,SC,Hindu,No,Junior,8:00 AM,4:00 PM,Non-Technical,C3
+MCP,10294,Female,"Blount, Dianna",27-Sep-88,B,Mining Researcher,AB+,Mines,Active,General,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C3
+MCP,10267,Female,"Bondwell, Betsy",09-Aug-89,C,Mining Researcher,AB-,Mines,Voluntarily Terminated,General,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Non-Technical,C2
+MCP,10199,Male,"Booth, Frank",22-May-77,C,Mining Researcher,AB-,Mines,Terminated for Cause,ST,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Non-Technical,C1
+MCP,10081,Female,"Boutwell, Bonalyn",24-May-79,C,Mining Researcher,O-,Mines,Active,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E5
+MCP,10175,Male,"Bozzi, Charles",18-Feb-83,A,Mining Researcher,B+,Mines,Voluntarily Terminated,ST,Muslim,No,Senior,10:00 AM,6:00 PM,Executive,E6
+MCP,10177,Female,"Brill, Donna",02-Nov-70,A,Mining Researcher,B-,Mines,Voluntarily Terminated,ST,Christian,No,Junior,12:00 AM,8:00 PM,Non-Technical,C5
+MCP,10238,Female,"Brown, Mia",01-Jul-88,B,Mining Researcher,AB-,Mines,Active,OBC,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C1
+MCP,10184,Male,"Buccheri, Joseph  ",01-Dec-74,A,Mining Researcher,A+,Mines,Active,OBC,Christian,No,Intermediate,8:00 AM,4:00 PM,Non-Technical,C6
+MCP,10203,Female,"Bugali, Josephine ",21-Feb-74,A,Mining Researcher,O+,Mines,Active,General,Muslim,Yes,Trainee,8:00 AM,4:00 PM,Non-Technical,C4
+MCP,10188,Female,"Bunbury, Jessica",07-Apr-88,B,Mining Researcher,B+,Mines,Voluntarily Terminated,General,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E2
+MCP,10107,Female,"Burke, Joelle",20-Jul-83,C,Mining Researcher,AB-,Mines,Active,SC,Hindu,Yes,Senior,10:00 AM,6:00 PM,Executive,E10
+MCP,10181,Male,"Burkett, Benjamin ",15-Jul-77,B,Mining Researcher,A+,Mines,Active,ST,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C4
+MCP,10150,Male,"Cady, Max ",18-Oct-81,A,Mining Researcher,B-,Mines,Active,SC,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C3
+MCP,10001,Male,"Candie, Calvin",04-Oct-66,B,Mining Researcher,O-,Mines,Active,ST,Hindu,Yes,Intermediate,8:00 AM,4:00 PM,Non-Technical,C1
+MCP,10085,Female,"Carabbio, Judith",24-Nov-81,A,Mining Researcher,O+,Mines,Active,SC,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Non-Technical,C6
+MCP,10115,Male,"Carey, Michael  ",04-Apr-86,B,Drilling Engineer,AB-,Mines,Active,OBC,Hindu,No,Trainee,12:00 PM,8:00 PM,Non-Technical,C4
+MCP,10082,Female,"Carr, Claudia  N",04-Jun-79,A,Drilling Engineer,A+,Mines,Active,OBC,Muslim,No,Trainee,12:00 PM,8:00 PM,Non-Technical,C2
+MCP,10040,Female,"Carter, Michelle ",07-Oct-83,A,Drilling Engineer,AB+,Mines,Active,General,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E1
+MCP,10067,Female,"Chace, Beatrice ",05-May-75,A,Drilling Engineer,AB-,Operations,Active,SC,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E10
+MCP,10108,Male,"Champaigne, Brian",19-Sep-88,B,Drilling Engineer,AB-,Mines,Active,SC,Christian,No,Junior,8:00 AM,4:00 PM,Non-Technical,C5
+MCP,10210,Female,"Chan, Lin",27-Sep-88,C,Drilling Engineer,A-,Mines,Active,General,Muslim,Yes,Junior,8:00 AM,4:00 PM,Non-Technical,C3
+MCP,10154,Male,"Chang, Donovan  E",09-Aug-89,B,Drilling Engineer,B+,Mines,Active,General,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Non-Technical,C1
+MCP,10200,Male,"Chigurh, Anton",22-May-77,B,Drilling Engineer,O+,Mines,Active,ST,Hindu,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C6
+MCP,10240,Female,"Chivukula, Enola",24-May-79,"A
+",Drilling Engineer,O-,Mines,Voluntarily Terminated,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E8
+MCP,10168,Female,"Cierpiszewski, Caroline  ",18-Feb-83,B,Drilling Engineer,AB+,Mines,Active,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E10
+MCP,10220,Male,"Clayton, Rick",02-Nov-70,A,Drilling Engineer,A+,Mines,Active,ST,Hindu,Yes,Junior,8:00 AM,4:00 PM,Technical,T2
+MCP,10275,Female,"Cloninger, Jennifer",01-Jul-88,A,Drilling Engineer,AB-,Operations,Voluntarily Terminated,OBC,Muslim,Yes,Junior,12:00 AM,8:00 PM,Technical,T4
+MCP,10269,Male,"Close, Phil",01-Dec-74,A,Drilling Engineer,A+,Mines,Voluntarily Terminated,OBC,Hindu,No,Intermediate,4:00 PM,12:00 AM,Technical,T5
+MCP,10029,Male,"Clukey, Elijian",21-Feb-74,B,Drilling Engineer,A-,Mines,Active,General,Muslim,No,Trainee,4:00 PM,12:00 AM,Technical,T2
+MCP,10261,Male,"Cockel, James",07-Apr-88,A,Drilling Engineer,AB+,Operations,Active,General,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E2
+MCP,10292,Male,"Cole, Spencer",20-Jul-83,B,Drilling Engineer,AB+,Mines,Terminated for Cause,SC,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E8
+MCP,10282,Male,"Corleone, Michael",15-Jul-77,C,Drilling Engineer,AB-,Mines,Active,ST,Christian,No,Junior,12:00 AM,8:00 PM,Technical,T6
+MCP,10019,Male,"Corleone, Vito",18-Oct-81,C,Drilling Engineer,AB-,Mines,Active,SC,Muslim,Yes,Junior,8:00 PM,4:00 AM,Technical,T7
+MCP,10094,Female,"Cornett, Lisa ",04-Oct-66,C,Drilling Engineer,O-,Mines,Active,ST,Hindu,Yes,Intermediate,8:00 PM,4:00 AM,Technical,T4
+MCP,10193,Male,"Costello, Frank",24-Nov-81,A,Drilling Engineer,B+,Operations,Active,SC,Hindu,Yes,Trainee,8:00 AM,4:00 PM,Technical,T3
+MCP,10132,Female,"Crimmings,   Jean",04-Apr-86,A,Drilling Engineer,B-,Mines,Active,OBC,Hindu,No,Senior,12:00 AM,8:00 PM,Technical,T2
+MCP,10083,Male,"Cross, Noah",04-Jun-79,B,Drilling Engineer,AB-,Mines,Active,OBC,Hindu,No,Senior,8:00 PM,4:00 AM,Technical,T6
+MCP,10099,Female,"Daneault, Lynn",07-Oct-83,A,Drilling Engineer,A+,Mines,Active,General,Christian,Yes,Junior,8:00 AM,4:00 PM,Technical,T7
+MCP,10212,Female,"Daniele, Ann  ",05-May-75,A,Drilling Engineer,O+,Mines,Active,SC,Muslim,Yes,Junior,8:00 AM,4:00 PM,Technical,T3
+MCP,10056,Female,"Darson, Jene'ya ",19-Sep-88,B,Drilling Engineer,B+,Mines,Active,SC,Hindu,No,Intermediate,12:00 AM,8:00 PM,Technical,T8
+MCP,10143,Male,"Davis, Daniel",27-Sep-88,C,Drilling Engineer,AB-,Mines,Active,General,Hindu,No,Trainee,12:00 AM,8:00 PM,Technical,T10
+MCP,10311,Male,"Dee, Randy",09-Aug-89,B,Drilling Engineer,A+,Mines,Active,General,Hindu,No,Senior,8:00 PM,4:00 AM,Technical,T2
+MCP,10070,Male,"DeGweck,  James",22-May-77,A,Drilling Engineer,B-,Operations,Voluntarily Terminated,ST,Hindu,No,Senior,8:00 PM,4:00 AM,Technical,T4
+MCP,10155,Female,"Del Bosque, Keyla",24-May-79,B,Drilling Engineer,O-,Mines,Active,ST,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T5
+MCP,10306,Male,"Delarge, Alex",18-Feb-83,A,Drilling Engineer,O+,Mines,Active,ST,Muslim,Yes,Junior,8:00 PM,4:00 AM,Technical,T7
+MCP,10100,Female,"Demita, Carla",02-Nov-70,B,Drilling Engineer,AB-,Mines,Voluntarily Terminated,ST,Hindu,Yes,Intermediate,12:00 PM,8:00 PM,Technical,T9
+MCP,10310,Male,"Desimone, Carl ",01-Jul-88,A,Drilling Engineer,A+,Mines,Active,OBC,Muslim,Yes,Trainee,12:00 PM,8:00 PM,Technical,T2
+MCP,10197,Male,"DeVito, Tommy",01-Dec-74,A,Drilling Engineer,AB+,Operations,Active,OBC,Christian,No,Trainee,12:00 AM,8:00 PM,Technical,T10
+MCP,10276,Male,"Dickinson, Geoff ",21-Feb-74,A,Drilling Engineer,AB-,Mines,Active,General,Hindu,No,Trainee,12:00 AM,8:00 PM,Technical,T5
+MCP,10304,Female,"Dietrich, Jenna  ",07-Apr-88,B,Drilling Engineer,AB-,Mines,Active,General,Christian,Yes,Senior,8:00 AM,4:00 PM,Technical,T6
+MCP,10284,Female,"DiNocco, Lily ",20-Jul-83,C,Drilling Engineer,A-,Mines,Active,SC,Muslim,Yes,Senior,8:00 AM,4:00 PM,Technical,T2
+MCP,10207,Female,"Dobrin, Denisa  S",15-Jul-77,B,Drilling Engineer,B+,Mines,Active,ST,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T7
+MCP,10133,Female,"Dolan, Linda",18-Oct-81,B,Drilling Engineer,O+,Mines,Active,SC,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T4
+MCP,10028,Male,"Dougall, Eric",04-Oct-66,"A
+",Drilling Engineer,O-,Mines,Active,ST,Hindu,No,Intermediate,10:00 AM,6:00 PM,Executive,E8
+MCP,10006,Female,"Driver, Elle",24-Nov-81,B,Drilling Engineer,AB+,Mines,Active,SC,Hindu,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C6
+MCP,10105,Female,"Dunn, Amy  ",04-Apr-86,A,Drilling Engineer,A+,Mines,Active,OBC,Hindu,No,Senior,8:00 AM,4:00 PM,Non-Technical,C3
+MCP,10211,Female,"Dunne, Amy",04-Jun-79,A,Drilling Engineer,AB-,Mines,Active,OBC,Muslim,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C1
+MCP,10064,Female,"Eaton, Marianne",09-May-91,A,Drilling Engineer,A+,Mines,Voluntarily Terminated,SC,Hindu,Yes,Junior,4:00 PM,12:00 AM,Non-Technical,C4
+MCP,10247,Male,"Engdahl, Jean",07-Oct-83,B,DB Admin,A-,HR,Active,SC,Muslim,Yes,Junior,4:00 PM,12:00 AM,Non-Technical,C6
+MCP,10235,Male,"England, Rex",05-May-75,A,IT Analyst,AB+,IT,Active,General,Christian,No,Intermediate,8:00 AM,4:00 PM,Non-Technical,C5
+MCP,10299,Female,"Erilus, Angela",19-Sep-88,B,IT Analyst,AB+,IT,Active,General,Hindu,No,Trainee,12:00 AM,8:00 PM,Non-Technical,C6
+MCP,10280,Male,"Estremera, Miguel",27-Sep-88,C,IT Analyst,AB-,IT,Terminated for Cause,ST,Christian,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C2
+MCP,10296,Female,"Evensen, April",09-Aug-89,C,IT Analyst,AB-,IT,Terminated for Cause,ST,Muslim,Yes,Senior,8:00 PM,4:00 AM,Non-Technical,C3
+MCP,10290,Female,"Exantus, Susan",22-May-77,C,DB Admin,O-,HR,Terminated for Cause,ST,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C4
+MCP,10263,Female,"Faller, Megan ",24-May-79,A,IT Analyst,B+,IT,Active,ST,Hindu,No,Junior,8:00 AM,4:00 PM,Non-Technical,C6
+MCP,10136,Female,"Fancett, Nicole",18-Feb-83,A,IT Analyst,B-,IT,Active,OBC,Hindu,No,Intermediate,12:00 AM,8:00 PM,Non-Technical,C3
+MCP,10189,Female,"Ferguson, Susan",02-Nov-70,B,DB Admin,AB-,Sales,Voluntarily Terminated,OBC,Hindu,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C2
+MCP,10308,Male,"Fernandes, Nilson  ",01-Jul-88,A,DB Admin,A+,Sales,Active,General,Hindu,No,Senior,12:00 AM,8:00 PM,Non-Technical,C5
+MCP,10309,Male,"Fett, Boba",01-Dec-74,A,Mining Engineer,O+,Mines,Active,General,Muslim,Yes,Senior,4:00 PM,12:00 AM,Non-Technical,C1
+MCP,10049,Female,"Fidelia,  Libby",21-Feb-74,B,Mining Engineer,B+,Mines,Active,SC,Hindu,Yes,Junior,4:00 PM,12:00 AM,Non-Technical,C3
+MCP,10093,Male,"Fitzpatrick, Michael  J",07-Apr-88,C,Mining Engineer,AB-,Mines,Voluntarily Terminated,ST,Muslim,Yes,Junior,8:00 AM,4:00 PM,Non-Technical,C4
+MCP,10163,Female,"Foreman, Tanya",20-Jul-83,B,Mining Engineer,A+,Mines,Voluntarily Terminated,SC,Christian,No,Intermediate,12:00 AM,8:00 PM,Non-Technical,C6
+MCP,10305,Male,"Forrest, Alex",15-Jul-77,A,Mining Engineer,B-,Operations,Terminated for Cause,ST,Hindu,No,Trainee,12:00 AM,8:00 PM,Non-Technical,C2
+MCP,10015,Male,"Foss, Jason",18-Oct-81,B,Mining Engineer,O-,Mines,Active,SC,Christian,Yes,Senior,8:00 PM,4:00 AM,Non-Technical,C2
+MCP,10080,Female,"Foster-Baker, Amy",04-Oct-66,A,Mining Engineer,O+,Mines,Active,OBC,Muslim,Yes,Senior,8:00 PM,4:00 AM,Non-Technical,C5
+MCP,10258,Male,"Fraval, Maruk ",24-Nov-81,B,Mining Researcher,AB-,Mines,Active,OBC,Hindu,No,Junior,8:00 AM,4:00 PM,Non-Technical,C6
+KCC,10273,Female,"Galia, Lisa",04-Apr-86,A,Mining Researcher,A+,Mines,Active,General,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C5
+KCC,10111,Male,"Garcia, Raul",04-Jun-79,A,Mining Researcher,AB+,Mines,Active,SC,Hindu,No,Intermediate,8:00 PM,4:00 AM,Non-Technical,C2
+KCC,10257,Female,"Gaul, Barbara",07-Oct-83,A,Mining Researcher,AB-,Mines,Active,SC,Hindu,No,Trainee,8:00 AM,4:00 PM,Non-Technical,C1
+KCC,10159,Female,"Gentry, Mildred",05-May-75,B,Mining Researcher,AB-,Operations,Active,General,Hindu,No,Trainee,8:00 AM,4:00 PM,Non-Technical,C3
+KCC,10122,Female,"Gerke, Melisa",19-Sep-88,C,Mining Researcher,A-,Mines,Voluntarily Terminated,General,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C2
+KCC,10142,Female,"Gill, Whitney  ",27-Sep-88,B,Mining Researcher,B+,Mines,Terminated for Cause,ST,Hindu,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C6
+KCC,10283,Male,"Gilles, Alex",09-Aug-89,B,Mining Researcher,O+,Mines,Voluntarily Terminated,ST,Muslim,Yes,Senior,8:00 PM,4:00 AM,Non-Technical,C3
+KCC,10018,Female,"Girifalco, Evelyn",22-May-77,"A
+",Mining Researcher,O-,Mines,Active,ST,Christian,No,Junior,10:00 AM,6:00 PM,Executive,E2
+KCC,10255,Female,"Givens, Myriam",24-May-79,B,Mining Researcher,AB+,Operations,Active,ST,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T2
+KCC,10246,Female,"Goble, Taisha",18-Feb-83,A,Mining Researcher,A+,Mines,Terminated for Cause,OBC,Christian,Yes,Intermediate,8:00 PM,4:00 AM,Technical,T4
+KCC,10228,Male,"Goeth, Amon",02-Nov-70,A,Mining Researcher,AB-,Operations,Active,OBC,Muslim,Yes,Trainee,12:00 PM,8:00 PM,Technical,T7
+KCC,10243,Female,"Gold, Shenice  ",01-Jul-88,A,Mining Researcher,A+,Mines,Active,General,Hindu,No,Senior,12:00 PM,8:00 PM,Technical,T6
+KCC,10031,Male,"Gonzalez, Cayo",01-Dec-74,B,Mining Researcher,A-,Mines,Active,General,Hindu,No,Senior,12:00 AM,8:00 PM,Technical,T2
+KCC,10300,Male,"Gonzalez, Juan",21-Feb-74,A,Mining Researcher,AB+,Mines,Voluntarily Terminated,SC,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T8
+KCC,10101,Female,"Gonzalez, Maria",07-Apr-88,B,Mining Researcher,AB+,Operations,Active,ST,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T5
+KCC,10237,Female,"Good, Susan",20-Jul-83,C,Mining Researcher,AB-,Mines,Active,SC,Christian,No,Intermediate,8:00 AM,4:00 PM,Technical,T8
+KCC,10051,Male,"Gordon, David",15-Jul-77,C,Mining Researcher,AB-,Mines,Active,ST,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Technical,T7
+KCC,10218,Female,"Gosciminski, Phylicia  ",18-Oct-81,C,Mining Researcher,O-,Mines,Active,SC,Hindu,Yes,Senior,12:00 AM,8:00 PM,Technical,T2
+HO,10256,Female,"Goyal, Roxana",04-Oct-66,A,Mining Researcher,B+,Mines,Active,OBC,Hindu,Yes,Senior,8:00 PM,4:00 AM,Technical,T4
+HO,10098,Male,"Gray, Elijiah  ",24-Nov-81,A,Mining Researcher,B-,Mines,Active,OBC,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T6
+HO,10059,Female,"Gross, Paula",04-Apr-86,B,Mining Researcher,AB-,Mines,Voluntarily Terminated,General,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T8
+HO,10234,Male,"Gruber, Hans",04-Jun-79,A,Mining Researcher,A+,Mines,Active,SC,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Technical,T2
+HO,10109,Male,"Guilianno, Mike",07-Oct-83,A,Mining Researcher,O+,Mines,Voluntarily Terminated,SC,Muslim,Yes,Trainee,4:00 PM,12:00 AM,Technical,T9
+HO,10125,Female,"Handschiegl, Joanne",05-May-75,B,Mining Researcher,B+,Operations,Active,General,Hindu,No,Senior,4:00 PM,12:00 AM,Technical,T6
+HO,10074,Male,"Hankard, Earnest",19-Sep-88,C,Mining Researcher,AB-,Mines,Active,General,Muslim,No,Senior,8:00 AM,4:00 PM,Technical,T9
+HO,10097,Female,"Harrington, Christie ",27-Sep-88,B,Mining Researcher,A+,Mines,Voluntarily Terminated,ST,Christian,No,Junior,12:00 AM,8:00 PM,Technical,T10
+HO,10007,Female,"Harrison, Kara",09-Aug-89,A,Mining Researcher,B-,Mines,Active,ST,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T4
+HO,10129,Male,"Heitzman, Anthony",22-May-77,B,Mining Researcher,O-,Mines,Active,ST,Christian,No,Intermediate,8:00 PM,4:00 AM,Technical,T7
+HO,10075,Female,"Hendrickson, Trina",24-May-79,A,Mining Researcher,O+,Mines,Voluntarily Terminated,ST,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Technical,T6
+HO,10167,Male,"Hitchcock, Alfred",18-Feb-83,B,Mining Researcher,AB-,Mines,Active,OBC,Hindu,Yes,Senior,8:00 AM,4:00 PM,Technical,T2
+HO,10195,Female,"Homberger, Adrienne  J",02-Nov-70,A,Drilling Engineer,A+,Operations,Voluntarily Terminated,OBC,Hindu,Yes,Senior,12:00 AM,8:00 PM,Technical,T7
+HO,10112,Female,"Horton, Jayne",01-Jul-88,A,Drilling Engineer,AB+,Mines,Active,General,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T5
+HO,10272,Female,"Houlihan, Debra",01-Dec-74,A,Drilling Engineer,AB-,Mines,Active,General,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T9
+KCC,10182,Female,"Howard, Estelle",21-Feb-74,B,Drilling Engineer,AB-,Mines,Terminated for Cause,SC,Hindu,Yes,Intermediate,4:00 PM,12:00 AM,Technical,T4
+KCC,10248,Female,"Hudson, Jane",07-Apr-88,C,Drilling Engineer,A-,Mines,Active,ST,Muslim,Yes,Trainee,4:00 PM,12:00 AM,Technical,T8
+KCC,10201,Female,"Hunts, Julissa",20-Jul-83,B,Drilling Engineer,B+,Operations,Active,SC,Hindu,No,Trainee,8:00 AM,4:00 PM,Technical,T2
+KCC,10214,Female,"Hutter, Rosalie",15-Jul-77,B,Drilling Engineer,O+,Mines,Active,ST,Muslim,No,Trainee,12:00 AM,8:00 PM,Technical,T10
+KCC,10160,Female,"Huynh, Ming",18-Oct-81,"A
+",Drilling Engineer,O-,Mines,Voluntarily Terminated,SC,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E11
+KCC,10289,Male,"Immediato, Walter",04-Oct-66,B,Drilling Engineer,AB+,Mines,Voluntarily Terminated,OBC,Hindu,No,Senior,8:00 PM,4:00 AM,Non-Technical,C1
+KCC,10139,Female,"Ivey, Rose ",24-Nov-81,A,Drilling Engineer,A+,Mines,Active,OBC,Christian,No,Junior,8:00 PM,4:00 AM,Non-Technical,C6
+KCC,10227,Female,"Jackson, Maryellen",04-Apr-86,A,Drilling Engineer,AB-,Mines,Active,SC,Muslim,Yes,Junior,8:00 AM,4:00 PM,Non-Technical,C4
+KCC,10236,Female,"Jacobi, Hannah  ",04-Jun-79,A,Drilling Engineer,A+,Mines,Active,SC,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Non-Technical,C6
+KCC,10009,Female,"Jeannite, Tayana",07-Oct-83,B,Drilling Engineer,A-,Mines,Active,General,Hindu,Yes,Trainee,8:00 PM,4:00 AM,Non-Technical,C3
+KCC,10060,Female,"Jhaveri, Sneha  ",05-May-75,A,Drilling Engineer,AB+,Mines,Active,General,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E1
+KCC,10034,Male,"Johnson, George",19-Sep-88,B,Drilling Engineer,AB+,Mines,Voluntarily Terminated,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E7
+KCC,10156,Female,"Johnson, Noelle ",27-Sep-88,C,Drilling Engineer,AB-,Mines,Active,ST,Hindu,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C1
+KCC,10036,Female,"Johnston, Yen",09-Aug-89,C,Drilling Engineer,AB-,Operations,Active,ST,Muslim,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C6
+KCC,10138,Female,"Jung, Judy  ",22-May-77,C,Drilling Engineer,O-,Mines,Voluntarily Terminated,ST,Hindu,No,Intermediate,8:00 PM,4:00 AM,Non-Technical,C2
+KCC,10244,Female,"Kampew, Donysha",24-May-79,A,Drilling Engineer,B+,Mines,Voluntarily Terminated,OBC,Muslim,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C2
+KCC,10192,Male,"Keatts, Kramer ",18-Feb-83,A,Drilling Engineer,B-,Mines,Active,OBC,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E4
+KCC,10231,Male,"Khemmich, Bartholemew",02-Nov-70,B,Drilling Engineer,AB-,Mines,Active,General,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E1
+KCC,10089,Female,"King, Janet",01-Jul-88,A,Drilling Engineer,A+,Mines,Active,General,Christian,No,Junior,12:00 PM,8:00 PM,Non-Technical,C1
+KCC,10166,Female,"Kinsella, Kathleen  ",01-Dec-74,A,Drilling Engineer,O+,Operations,Voluntarily Terminated,SC,Muslim,Yes,Junior,12:00 PM,8:00 PM,Non-Technical,C4
+KCC,10170,Female,"Kirill, Alexandra  ",21-Feb-74,B,Drilling Engineer,B+,Mines,Voluntarily Terminated,ST,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Non-Technical,C2
+KCC,10208,Male,"Knapp, Bradley  J",07-Apr-88,C,Drilling Engineer,AB-,Operations,Active,SC,Hindu,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C6
+KCC,10176,Male,"Kretschmer, John",20-Jul-83,B,Drilling Engineer,A+,Operations,Active,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E8
+KCC,10165,Male,"Kreuger, Freddy",15-Jul-77,A,Drilling Engineer,B-,Operations,Active,SC,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E11
+KCC,10113,Male,Debasmita Gonzalez,18-Oct-81,B,Drilling Engineer,O-,Operations,Active,OBC,Hindu,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C4
+KCC,10092,Male,"Landa, Hans",04-Oct-66,A,Drilling Engineer,O+,Mines,Terminated for Cause,OBC,Muslim,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C3
+KCC,10106,Female,"Langford, Lindsey",24-Nov-81,B,Drilling Engineer,AB-,Operations,Voluntarily Terminated,General,Hindu,No,Intermediate,8:00 PM,4:00 AM,Non-Technical,C4
+KCC,10052,Male,"Langton, Enrico",04-Apr-86,A,Drilling Engineer,A+,Operations,Active,SC,Muslim,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C3
+KCC,10038,Male,"LaRotonda, William  ",04-Jun-79,A,Drilling Engineer,AB+,Operations,Active,SC,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E11
+KCC,10249,Male,"Latif, Mohammed",09-May-91,A,Drilling Engineer,AB-,Mines,Voluntarily Terminated,General,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E2
+KCC,10232,Female,"Le, Binh",07-Oct-83,B,Drilling Engineer,AB-,Operations,Active,General,Muslim,No,Junior,4:00 PM,12:00 AM,Non-Technical,C3
+KCC,10087,Female,"Leach, Dallas",05-May-75,C,Drilling Engineer,A-,Mines,Voluntarily Terminated,ST,Muslim,Yes,Junior,4:00 PM,12:00 AM,Non-Technical,C1
+KCC,10134,Male,"LeBlanc, Brandon  R",19-Sep-88,B,Drilling Engineer,B+,Mines,Active,ST,Hindu,Yes,Intermediate,8:00 AM,4:00 PM,Non-Technical,C6
+KCC,10251,Male,"Lecter, Hannibal",27-Sep-88,B,Drilling Engineer,O+,Mines,Active,ST,Hindu,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C3
+KCC,10103,Male,"Leruth, Giovanni",09-Aug-89,"A
+",Drilling Engineer,O-,Mines,Active,ST,Hindu,No,Trainee,10:00 AM,6:00 PM,Executive,E1
+KCC,10017,Female,"Liebig, Ketsia",22-May-77,B,Drilling Engineer,AB+,Mines,Active,OBC,Hindu,No,Trainee,8:00 PM,4:00 AM,Technical,T4
+KCC,10186,Female,"Linares, Marilyn ",24-May-79,A,Drilling Engineer,A+,Mines,Voluntarily Terminated,OBC,Christian,Yes,Senior,10:00 AM,6:00 PM,Executive,E4
+KCC,10137,Male,"Linden, Mathew",18-Feb-83,A,Drilling Engineer,AB-,Mines,Active,General,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E1
+KCC,10008,Female,"Lindsay, Leonara ",02-Nov-70,A,Drilling Engineer,A+,Mines,Active,General,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T7
+KCC,10096,Female,"Lundy, Susan",01-Jul-88,B,Drilling Engineer,A-,Mines,Voluntarily Terminated,SC,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T2
+KCC,10035,Female,"Lunquist, Lisa",01-Dec-74,A,DB Admin,AB+,Sales,Active,ST,Hindu,No,Intermediate,12:00 AM,8:00 PM,Technical,T5
+KCC,10057,Female,"Lydon, Allison",21-Feb-74,B,IT Analyst,AB+,M&C,Active,SC,Hindu,No,Trainee,4:00 PM,12:00 AM,Technical,T6
+KCC,10004,Female,"Lynch, Lindsay",07-Apr-88,C,IT Analyst,AB-,M&C,Voluntarily Terminated,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E7
+KCC,10191,Male,"MacLennan, Samuel",20-Jul-83,C,IT Analyst,AB-,IT,Voluntarily Terminated,SC,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E8
+KCC,10219,Female,"Mahoney, Lauren  ",15-Jul-77,C,IT Analyst,O-,IT,Active,OBC,Hindu,Yes,Junior,12:00 AM,8:00 PM,Technical,T9
+KCC,10077,Female,"Manchester, Robyn",18-Oct-81,A,DB Admin,B+,IT,Active,OBC,Muslim,Yes,Junior,12:00 AM,8:00 PM,Technical,T2
+KCC,10073,Female,"Mancuso, Karen",04-Oct-66,A,IT Analyst,B-,IT,Voluntarily Terminated,General,Christian,No,Intermediate,8:00 PM,4:00 AM,Technical,T4
+KCC,10279,Female,"Mangal, Debbie",24-Nov-81,B,IT Analyst,AB-,IT,Active,SC,Hindu,No,Trainee,8:00 PM,4:00 AM,Technical,T7
+KCC,10110,Female,"Martin, Sandra",04-Apr-86,A,DB Admin,A+,M&C,Active,SC,Christian,Yes,Senior,8:00 AM,4:00 PM,Technical,T5
+KCC,10053,Female,"Maurice, Shana",04-Jun-79,A,DB Admin,O+,M&C,Active,General,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E1
+KCC,10076,Female,"Carthy, B'rigit",07-Oct-83,B,Mining Engineer,B+,Mines,Active,General,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T10
+KCC,10145,Female,"Mckenna, Sandy",05-May-75,C,Mining Engineer,AB-,Mines,Active,ST,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T7
+KCC,10202,Male,"McKinzie, Jac",19-Sep-88,B,Mining Engineer,A+,Sales,Active,ST,Hindu,No,Intermediate,8:00 AM,4:00 PM,Technical,T6
+KCC,10128,Female,"Meads, Elizabeth",27-Sep-88,A,Mining Engineer,B-,Mines,Voluntarily Terminated,ST,Hindu,No,Trainee,12:00 AM,8:00 PM,Technical,T2
+KCC,10068,Female,"Medeiros, Jennifer",09-Aug-89,B,Mining Engineer,O-,Mines,Active,ST,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E1
+KCC,10116,Male,"Miller, Brannon",22-May-77,A,Mining Engineer,O+,Mines,Active,OBC,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E4
+KCC,10298,Male,"Miller, Ned",24-May-79,B,Mining Engineer,AB-,Mines,Voluntarily Terminated,OBC,Hindu,Yes,Junior,8:00 PM,4:00 AM,Technical,T4
+KCC,10213,Male,"Monkfish, Erasumus",18-Feb-83,A,Mining Researcher,A+,Sales,Active,General,Muslim,Yes,Junior,8:00 AM,4:00 PM,Technical,T6
+KCC,10288,Male,"Monroe, Peter",02-Nov-70,A,Mining Researcher,AB+,Mines,Active,General,Christian,No,Intermediate,8:00 PM,4:00 AM,Technical,T9
+KCC,10025,Female,"Monterro, Luisa",01-Jul-88,A,Mining Researcher,AB-,Mines,Active,SC,Hindu,No,Trainee,12:00 PM,8:00 PM,Technical,T7
+KCC,10223,Male,"Moran, Patrick",01-Dec-74,B,Mining Researcher,AB-,Mines,Active,ST,Christian,Yes,Senior,12:00 PM,8:00 PM,Technical,T2
+KCC,10151,Female,"Morway, Tanya",21-Feb-74,C,Mining Researcher,A-,Mines,Active,SC,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E2
+KCC,10254,Female,"Motlagh,  Dawn",07-Apr-88,B,Mining Researcher,B+,Mines,Active,ST,Hindu,No,Junior,12:00 AM,8:00 PM,Technical,T6
+KCC,10120,Male,"Moumanil, Maliki ",20-Jul-83,B,Mining Researcher,O+,Mines,Active,SC,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T5
+KCC,10216,Male,"Myers, Michael",15-Jul-77,"A
+",Mining Researcher,O-,Sales,Active,OBC,Hindu,No,Intermediate,10:00 AM,6:00 PM,Executive,E7
+KCC,10079,Male,"Navathe, Kurt",18-Oct-81,B,Mining Researcher,AB+,Mines,Active,OBC,Hindu,No,Trainee,12:00 AM,8:00 PM,Technical,T4
+KCC,10215,Male,"Ndzi, Colombui",04-Oct-66,A,Mining Researcher,A+,Mines,Voluntarily Terminated,SC,Hindu,No,Trainee,12:00 AM,8:00 PM,Technical,T7
+KCC,10185,Male,"Ndzi, Horia",24-Nov-81,A,Mining Researcher,AB-,Mines,Voluntarily Terminated,SC,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Technical,T9
+KCC,10063,Male,"Newman, Richard ",04-Apr-86,A,Mining Researcher,A+,Operations,Active,General,Hindu,Yes,Senior,8:00 PM,4:00 AM,Technical,T10
+KCC,10037,Female,"Ngodup, Shari ",04-Jun-79,B,Mining Researcher,A-,Sales,Active,General,Muslim,Yes,Senior,10:00 AM,6:00 PM,Executive,E0
+KCC,10042,Female,"Nguyen, Dheepa",07-Oct-83,A,Mining Researcher,AB+,Operations,Active,ST,Christian,No,Junior,12:00 AM,8:00 PM,Technical,T6
+KCC,10206,Female,"Nguyen, Lei-Ming",05-May-75,B,Mining Researcher,AB+,Operations,Active,ST,Hindu,No,Junior,4:00 PM,12:00 AM,Technical,T3
+KCC,10104,Female,"Nowlan, Kristie",19-Sep-88,C,Mining Researcher,AB-,Operations,Active,ST,Christian,Yes,Intermediate,4:00 PM,12:00 AM,Technical,T2
+KCC,10303,Female,"O'hare, Lynn",27-Sep-88,C,Mining Researcher,AB-,Operations,Terminated for Cause,ST,Muslim,Yes,Trainee,8:00 AM,4:00 PM,Technical,T4
+KCC,10078,Female,"Oliver, Brooke ",09-Aug-89,C,Mining Researcher,O-,Operations,Voluntarily Terminated,OBC,Hindu,No,Senior,12:00 AM,8:00 PM,Technical,T9
+KCC,10121,Female,"Onque, Jasmine",22-May-77,A,Mining Researcher,B+,Operations,Active,OBC,Hindu,No,Senior,10:00 AM,6:00 PM,Executive,E11
+KCC,10021,Male,"Osturnka, Adeel",24-May-79,A,Mining Researcher,B-,Sales,Active,General,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T6
+KCC,10281,Male,"Owad, Clinton",18-Feb-83,B,Mining Researcher,AB-,Operations,Active,General,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T5
+KCC,10041,Male,"Ozark, Travis",02-Nov-70,A,Mining Researcher,A+,Operations,Active,SC,Hindu,No,Intermediate,8:00 AM,4:00 PM,Technical,T9
+KCC,10148,Female,"Panjwani, Nina",01-Jul-88,A,Mining Researcher,O+,Operations,Voluntarily Terminated,ST,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Technical,T2
+KCC,10005,Male,"Patronick, Lucas",01-Dec-74,B,Mining Researcher,B+,Operations,Voluntarily Terminated,SC,Hindu,Yes,Senior,8:00 PM,4:00 AM,Technical,T6
+KCC,10259,Male,"Pearson, Randall",21-Feb-74,C,Mining Researcher,AB-,Operations,Voluntarily Terminated,ST,Muslim,Yes,Senior,12:00 AM,8:00 PM,Technical,T10
+KCC,10286,Male,"Smith, Martin",07-Apr-88,B,Mining Researcher,A+,Sales,Voluntarily Terminated,SC,Christian,No,Junior,4:00 PM,12:00 AM,Technical,T4
+KCC,10297,Female,"Pelletier, Ermine",20-Jul-83,A,Mining Researcher,B-,Operations,Voluntarily Terminated,OBC,Hindu,No,Junior,4:00 PM,12:00 AM,Technical,T3
+KCC,10171,Female,"Perry, Shakira",15-Jul-77,B,Mining Researcher,O-,Operations,Voluntarily Terminated,OBC,Christian,Yes,Intermediate,8:00 AM,4:00 PM,Technical,T5
+KCC,10032,Female,"Peters, Lauren",18-Oct-81,A,Mining Researcher,O+,Operations,Voluntarily Terminated,General,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Technical,T7
+KCC,10130,Female,"Peterson, Ebonee  ",04-Oct-66,B,Mining Researcher,AB-,Mines,Voluntarily Terminated,SC,Hindu,No,10:00 AM,6:00 PM,Executive,Technical,T4
+ICC,10217,Female,"Petingill, Shana  ",24-Nov-81,A,Mining Researcher,A+,Mines,Active,SC,Hindu,No,Senior,8:00 PM,4:00 AM,Technical,T6
+ICC,10016,Female,"Petrowsky, Thelma",04-Apr-86,A,Drilling Engineer,AB+,Mines,Active,General,Hindu,No,Junior,8:00 PM,4:00 AM,Technical,T3
+ICC,10050,Male,"Pham, Hong",04-Jun-79,A,Drilling Engineer,AB-,Mines,Voluntarily Terminated,General,Hindu,No,Junior,8:00 AM,4:00 PM,Technical,T9
+ICC,10164,Male,"Pitt, Brad ",07-Oct-83,B,Drilling Engineer,AB-,Sales,Active,ST,Christian,No,Intermediate,12:00 AM,8:00 PM,Technical,T6
+ICC,10124,Female,"Potts, Xana",05-May-75,C,Drilling Engineer,A-,Mines,Active,ST,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Technical,T5
+ICC,10187,Female,"Power, Morissa",19-Sep-88,B,Drilling Engineer,B+,Mines,Voluntarily Terminated,ST,Hindu,Yes,10:00 AM,6:00 PM,Executive,Technical,T10
+ICC,10225,Male,"Punjabhi, Louis  ",27-Sep-88,B,Drilling Engineer,O+,Mines,Active,ST,Hindu,Yes,10:00 AM,6:00 PM,Executive,Technical,T2
+ICC,10262,Female,"Purinton, Janine",09-Aug-89,"A
+",Drilling Engineer,O-,Mines,Voluntarily Terminated,OBC,Hindu,No,Junior,10:00 AM,6:00 PM,Executive,E11
+ICC,10131,Male,"Quinn, Sean",22-May-77,B,Drilling Engineer,AB+,Mines,Voluntarily Terminated,OBC,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C1
+ICC,10239,Female,"Rachael, Maggie",24-May-79,A,Drilling Engineer,A+,Mines,Active,General,Hindu,Yes,Intermediate,8:00 PM,4:00 AM,Technical,T8
+ICC,10152,Male,"Rarrick, Quinn",18-Feb-83,A,Drilling Engineer,AB-,Mines,Voluntarily Terminated,General,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Technical,T3
+ICC,10140,Male,"Ren, Kylo",02-Nov-70,A,Drilling Engineer,A+,Sales,Active,SC,Hindu,No,Trainee,8:00 AM,4:00 PM,Technical,T6
+ICC,10058,Male,"Rhoads, Thomas",01-Jul-88,B,Drilling Engineer,A-,Mines,Voluntarily Terminated,ST,Muslim,No,Trainee,8:00 PM,4:00 AM,Technical,T10
+HO,10011,Female,"Rivera, Haley  ",01-Dec-74,A,Drilling Engineer,AB+,Operations,Active,SC,Christian,No,10:00 AM,6:00 PM,Executive,Technical,T3
+HO,10230,Female,"Roberson, May",21-Feb-74,B,Drilling Engineer,AB+,Operations,Voluntarily Terminated,ST,Hindu,No,10:00 AM,6:00 PM,Executive,Technical,T2
+HO,10224,Male,"Robertson, Peter",07-Apr-88,C,Drilling Engineer,AB-,Operations,Voluntarily Terminated,SC,Christian,No,Junior,12:00 AM,8:00 PM,Technical,T3
+HO,10047,Male,"Robinson, Alain  ",20-Jul-83,C,Drilling Engineer,AB-,Sales,Voluntarily Terminated,OBC,Muslim,Yes,Junior,12:00 AM,8:00 PM,Technical,T4
+HO,10285,Female,"Robinson, Cherly",15-Jul-77,C,Drilling Engineer,O-,Operations,Terminated for Cause,OBC,Hindu,Yes,Intermediate,8:00 AM,4:00 PM,Technical,T3
+HO,10020,Male,"Robinson, Elias",18-Oct-81,A,Drilling Engineer,B+,Operations,Active,General,Hindu,Yes,Trainee,8:00 AM,4:00 PM,Technical,T10
+HO,10162,Female,"Roby, Lori ",04-Oct-66,A,Drilling Engineer,B-,Operations,Active,SC,Hindu,No,10:00 AM,6:00 PM,Executive,Technical,T5
+HO,10149,Female,"Roehrich, Bianca",24-Nov-81,B,Drilling Engineer,AB-,Operations,Voluntarily Terminated,SC,Hindu,No,10:00 AM,6:00 PM,Executive,Technical,T6
+HO,10086,Female,"Roper, Katie",04-Apr-86,A,Drilling Engineer,A+,Operations,Active,General,Hindu,Yes,Junior,8:00 PM,4:00 AM,Technical,T9
+HO,10054,Female,"Rose, Ashley  ",04-Jun-79,A,Drilling Engineer,O+,Operations,Active,General,Muslim,Yes,Junior,8:00 PM,4:00 AM,Technical,T2
+HO,10065,Male,"Rossetti, Bruno",09-May-91,B,Drilling Engineer,B+,Operations,Voluntarily Terminated,ST,Hindu,No,Intermediate,8:00 AM,4:00 PM,Technical,T6
+HO,10198,Male,"Roup,Simon",07-Oct-83,C,Drilling Engineer,AB-,Sales,Active,ST,Muslim,No,Trainee,12:00 AM,8:00 PM,Technical,T3
+HO,10222,Male,"Ruiz, Ricardo",05-May-75,B,Drilling Engineer,A+,Operations,Voluntarily Terminated,ST,Christian,No,10:00 AM,6:00 PM,Executive,Technical,T8
+HO,10126,Female,"Saada, Adell",19-Sep-88,A,Drilling Engineer,B-,Operations,Active,ST,Hindu,No,10:00 AM,6:00 PM,Executive,Technical,T3
+HO,10295,Female,"Saar-Beckles, Melinda",27-Sep-88,B,Drilling Engineer,O-,Operations,Active,OBC,Christian,No,Junior,8:00 AM,4:00 PM,Technical,T2
+ICC,10260,Male,"Sadki, Nore  ",09-Aug-89,A,Drilling Engineer,O+,Sales,Voluntarily Terminated,OBC,Muslim,Yes,Junior,12:00 AM,8:00 PM,Technical,T4
+ICC,10233,Male,"Sahoo, Adil",22-May-77,B,Drilling Engineer,AB-,Mines,Active,General,Hindu,Yes,Intermediate,12:00 AM,8:00 PM,Technical,T8
+ICC,10229,Male,"Salter, Jason",24-May-79,A,Drilling Engineer,A+,Mines,Voluntarily Terminated,General,Hindu,Yes,Trainee,8:00 PM,4:00 AM,Technical,T10
+ICC,10169,Female,"Sander, Kamrin",18-Feb-83,A,Drilling Engineer,AB+,Mines,Active,SC,Hindu,No,Senior,8:00 PM,4:00 AM,Technical,T3
+ICC,10071,Female,"Sewkumar, Nori",02-Nov-70,A,Drilling Engineer,AB-,Mines,Active,ST,Hindu,No,Senior,8:00 AM,4:00 PM,Technical,T8
+ICC,10179,Female,"Shepard, Anita ",01-Jul-88,B,Drilling Engineer,AB-,Mines,Active,SC,Hindu,Yes,Junior,12:00 AM,8:00 PM,Technical,T10
+ICC,10091,Female,"Shields, Seffi",01-Dec-74,C,Drilling Engineer,A-,Mines,Active,ST,Muslim,Yes,Junior,8:00 PM,4:00 AM,Technical,T5
+ICC,10178,Male,"Simard, Kramer",21-Feb-74,B,Drilling Engineer,B+,Mines,Active,SC,Hindu,No,Intermediate,12:00 AM,8:00 PM,Technical,T2
+ICC,10039,Female,"Singh, Nan ",07-Apr-88,B,Drilling Engineer,O+,Mines,Active,OBC,Muslim,No,Trainee,4:00 PM,12:00 AM,Technical,T10
+ICC,10095,Female,"Sloan, Constance",20-Jul-83,"A
+",Drilling Engineer,O-,Sales,Voluntarily Terminated,OBC,Christian,No,Senior,10:00 AM,6:00 PM,Executive,E11
+ICC,10027,Male,"Smith, Joe",15-Jul-77,B,Drilling Engineer,AB+,Mines,Active,SC,Hindu,No,Senior,8:00 AM,4:00 PM,Technical,T10
+ICC,10291,Male,"Smith, John",18-Oct-81,A,Drilling Engineer,A+,Mines,Active,SC,Christian,No,Junior,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10153,Female,"Smith, Leigh Ann",04-Oct-66,A,Drilling Engineer,AB-,Mines,Voluntarily Terminated,General,Muslim,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C4
+ICC,10157,Female,"Smith, Sade",24-Nov-81,A,Drilling Engineer,A+,Mines,Active,General,Hindu,Yes,Intermediate,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10119,Female,"Soto, Julia ",04-Apr-86,B,Drilling Engineer,A-,Mines,Active,ST,Hindu,Yes,Trainee,8:00 PM,4:00 AM,Non-Technical,C5
+ICC,10180,Male,"Soze, Keyser",04-Jun-79,A,Drilling Engineer,AB+,Mines,Active,ST,Hindu,No,Trainee,8:00 AM,4:00 PM,Non-Technical,C1
+ICC,10302,Female,"Sparks, Taylor  ",07-Oct-83,B,DB Admin,AB+,Finance,Active,ST,Hindu,No,Trainee,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10090,Female,"Spirea, Kelley",05-May-75,C,IT Analyst,AB-,IT,Active,ST,Hindu,Yes,Senior,8:00 PM,4:00 AM,Non-Technical,C6
+ICC,10030,Female,"Squatrito, Kristen",19-Sep-88,C,IT Analyst,AB-,IT,Voluntarily Terminated,OBC,Muslim,Yes,Senior,8:00 AM,4:00 PM,Non-Technical,C2
+ICC,10278,Female,"Stanford,Barbara  M",27-Sep-88,C,IT Analyst,O-,Sales,Active,OBC,Hindu,No,Junior,8:00 AM,4:00 PM,Non-Technical,C5
+ICC,10307,Male,"Stansfield, Norman",09-Aug-89,A,IT Analyst,B+,IT,Active,General,Muslim,No,Junior,12:00 AM,8:00 PM,Non-Technical,C4
+ICC,10147,Male,"Steans, Tyrone  ",22-May-77,A,DB Admin,B-,Finance,Active,General,Christian,No,Intermediate,12:00 AM,8:00 PM,Non-Technical,C6
+ICC,10266,Male,"Stoica, Rick",24-May-79,B,IT Analyst,AB-,IT,Active,SC,Hindu,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C1
+ICC,10241,Female,"Strong, Caitrin",18-Feb-83,A,IT Analyst,A+,IT,Active,ST,Christian,No,Senior,8:00 PM,4:00 AM,Non-Technical,C3
+ICC,10158,Female,"Sullivan, Kissy ",02-Nov-70,A,DB Admin,O+,Finance,Active,SC,Muslim,Yes,Senior,8:00 AM,4:00 PM,Non-Technical,C6
+ICC,10117,Male,"Sullivan, Timothy",01-Jul-88,B,DB Admin,B+,HR,Active,ST,Hindu,Yes,Junior,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10209,Female,"Sutwell, Barbara",01-Dec-74,C,Mining Engineer,AB-,Mines,Active,SC,Hindu,Yes,Junior,12:00 PM,8:00 PM,Non-Technical,C5
+ICC,10024,Male,"Szabo, Andrew",21-Feb-74,B,Mining Engineer,A+,Sales,Active,OBC,Hindu,No,Intermediate,12:00 PM,8:00 PM,Non-Technical,C1
+ICC,10173,Male,"Tannen, Biff",07-Apr-88,A,Mining Engineer,B-,Mines,Active,OBC,Hindu,No,Trainee,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10221,Female,"Tavares, Desiree  ",20-Jul-83,B,Mining Engineer,O-,Mines,Voluntarily Terminated,General,Christian,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10146,Female,"Tejeda, Lenora ",15-Jul-77,A,Mining Engineer,O+,Mines,Voluntarily Terminated,SC,Muslim,Yes,Senior,8:00 AM,4:00 PM,Non-Technical,C4
+ICC,10161,Female,"Terry, Sharlene ",18-Oct-81,B,Mining Engineer,AB-,Mines,Active,SC,Hindu,No,Junior,8:00 AM,4:00 PM,Non-Technical,C5
+ICC,10141,Female,"Theamstern, Sophia",04-Oct-66,A,Mining Engineer,A+,Mines,Voluntarily Terminated,General,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C5
+ICC,10268,Male,"Thibaud, Kenneth",24-Nov-81,A,Mining Researcher,AB+,Mines,Voluntarily Terminated,General,Hindu,No,Intermediate,12:00 AM,8:00 PM,Non-Technical,C6
+ICC,10123,Female,"Tippett, Jeanette",04-Apr-86,A,Mining Researcher,AB-,Mines,Active,ST,Hindu,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10013,Male,"Torrence, Jack",04-Jun-79,B,Mining Researcher,AB-,Mines,Active,ST,Hindu,No,Senior,8:00 PM,4:00 AM,Non-Technical,C4
+ICC,10287,Female,"Trang, Mei",07-Oct-83,C,Mining Researcher,A-,Mines,Active,ST,Muslim,Yes,Senior,8:00 AM,4:00 PM,Non-Technical,C3
+ICC,10044,Male,"Tredinnick, Neville ",05-May-75,B,Mining Researcher,B+,Mines,Voluntarily Terminated,ST,Hindu,Yes,Junior,12:00 AM,8:00 PM,Non-Technical,C1
+ICC,10102,Male,"True, Edward",19-Sep-88,B,Mining Researcher,O+,Mines,Voluntarily Terminated,OBC,Muslim,Yes,Junior,4:00 PM,12:00 AM,Non-Technical,C4
+ICC,10270,Female,"Trzeciak, Cybil",27-Sep-88,"A
+",Mining Researcher,O-,Mines,Voluntarily Terminated,OBC,Christian,No,Intermediate,10:00 AM,6:00 PM,Executive,E11
+ICC,10045,Male,"Turpin, Jumil",09-Aug-89,B,Mining Researcher,AB+,Operations,Active,General,Hindu,No,Trainee,8:00 AM,4:00 PM,Non-Technical,C3
+ICC,10205,Female,"Valentin,Jackie",22-May-77,A,Mining Researcher,A+,Operations,Active,General,Christian,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C5
+ICC,10014,Male,"Veera, Abdellah ",24-May-79,A,Mining Researcher,AB-,Operations,Voluntarily Terminated,SC,Muslim,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10144,Male,"Vega, Vincent",18-Feb-83,A,Mining Researcher,A+,Operations,Active,ST,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10253,Male,"Villanueva, Noah",02-Nov-70,B,Mining Researcher,A-,Operations,Active,SC,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C3
+ICC,10118,Male,"Voldemort, Lord",01-Jul-88,A,Mining Researcher,AB+,Operations,Terminated for Cause,ST,Hindu,No,Intermediate,8:00 AM,4:00 PM,Non-Technical,C1
+ICC,10022,Female,"Volk, Colleen",01-Dec-74,B,Mining Researcher,AB+,Operations,Terminated for Cause,SC,Hindu,No,Trainee,12:00 AM,8:00 PM,Non-Technical,C6
+ICC,10183,Female,"Von Massenbach, Anna",21-Feb-74,C,Mining Researcher,AB-,Operations,Active,OBC,Hindu,No,Trainee,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10190,Male,"Walker, Roger",07-Apr-88,C,Mining Researcher,AB-,Operations,Active,OBC,Muslim,Yes,Trainee,12:00 AM,8:00 PM,Non-Technical,C5
+ICC,10274,Female,"Wallace, Courtney  E",20-Jul-83,C,Mining Researcher,O-,Operations,Voluntarily Terminated,General,Hindu,Yes,10:00 AM,6:00 PM,Executive,Non-Technical,C5
+ICC,10293,Female,"Wallace, Theresa",15-Jul-77,A,Mining Researcher,B+,Operations,Voluntarily Terminated,SC,Muslim,Yes,10:00 AM,6:00 PM,Executive,Non-Technical,C4
+ICC,10172,Male,"Wang, Charlie",18-Oct-81,A,Mining Researcher,B-,Operations,Active,SC,Christian,No,Junior,8:00 AM,4:00 PM,Non-Technical,C5
+ICC,10127,Female,"Warfield, Sarah",04-Oct-66,B,Mining Researcher,AB-,Operations,Active,General,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10072,Male,"Whittier, Scott",24-Nov-81,A,Mining Researcher,A+,Operations,Voluntarily Terminated,General,Christian,Yes,Intermediate,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10048,Male,"Wilber, Barry",04-Apr-86,A,Mining Researcher,O+,Operations,Voluntarily Terminated,ST,Muslim,Yes,Trainee,8:00 PM,4:00 AM,Non-Technical,C1
+ICC,10204,Female,"Wilkes, Annie",04-Jun-79,B,Mining Researcher,B+,Operations,Voluntarily Terminated,ST,Hindu,No,10:00 AM,6:00 PM,Executive,Non-Technical,C5
+ICC,10264,Female,"Williams, Jacquelyn  ",07-Oct-83,C,Mining Researcher,AB-,Operations,Voluntarily Terminated,ST,Hindu,No,10:00 AM,6:00 PM,Executive,Non-Technical,C5
+ICC,10033,Male,"Winthrop, Jordan  ",05-May-75,B,Mining Researcher,A+,Operations,Voluntarily Terminated,ST,Hindu,No,Junior,12:00 AM,8:00 PM,Non-Technical,C3
+ICC,10174,Female,"Wolk, Hang  T",19-Sep-88,A,Mining Researcher,B-,Operations,Active,OBC,Hindu,No,Junior,8:00 PM,4:00 AM,Non-Technical,C2
+ICC,10135,Male,"Woodson, Jason",27-Sep-88,B,Mining Researcher,O-,Operations,Active,OBC,Hindu,No,Intermediate,8:00 AM,4:00 PM,Non-Technical,C1
+ICC,10301,Female,"Ybarra, Catherine ",09-Aug-89,A,Mining Researcher,O+,Operations,Voluntarily Terminated,General,Muslim,Yes,Trainee,8:00 AM,4:00 PM,Non-Technical,C3
+ICC,10010,Female,"Zamora, Jennifer",22-May-77,B,Mining Researcher,AB-,Mines,Active,General,Hindu,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C5
+ICC,10043,Female,"Zhou, Julia",24-May-79,A,Mining Researcher,A+,Mines,Active,SC,Muslim,Yes,Senior,12:00 AM,8:00 PM,Non-Technical,C4
+ICC,10271,Female,"Zima, Colleen",25-Jun-85,A,Mining Researcher,AB+,Mines,Active,ST,Christian,No,Junior,8:00 PM,4:00 AM,Non-Technical,C3
+ICC,10271,Female,"Zima, Smith",25-Jun-85,A,Mining Researcher,AB+,Mines,Active,ST,Christian,No,Junior,8:00 PM,4:00 AM,Non-Technical,C2

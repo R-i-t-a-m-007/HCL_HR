@@ -1,0 +1,70 @@
+{
+  "name": "patient_details",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.13",
+    "@mui/material": "^5.15.4",
+    "@mui/styles": "^5.14.19",
+    "@mui/x-data-grid": "^6.18.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.44.0",
+    "axios": "^1.6.2",
+    "font-awesome": "^4.7.0",
+    "gantt-task-react": "^0.3.9",
+    "moment": "^2.29.4",
+    "num-words": "^1.2.3",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-json-to-csv": "^1.2.0",
+    "react-multi-select-component": "^4.3.4",
+    "react-multilevel-dropdown": "^4.0.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.8.0",
+    "rsuite": "^5.55.1",
+    "styled-components": "^6.1.8",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

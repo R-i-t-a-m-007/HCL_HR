@@ -1,0 +1,85 @@
+import React from 'react';
+// import {BsInfoCircle} from "react-icons/bs"
+// import etlLogo from '../etlLogo.svg';
+import miningImg from '../../assets/miningImg.jpg';
+import { useNavigate } from 'react-router-dom';
+import { useChartData } from '../../context/ChartDataProvider';
+import { LogoContainer } from '../LogoContainer';
+
+const pageStyle = {
+  position: 'relative',
+  minHeight: '100vh',
+};
+
+const backgroundStyle = {
+  content: "''",
+  background: `url(${miningImg})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center',
+  filter: 'blur(5px)', // Adjust the blur intensity (5px in this example)
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  zIndex: -1, // Position the pseudo-element behind the content
+};
+
+const LoginForm = () => {
+
+  const {DEPARTMENTS, department, setDepartment, userName, setUserName, userId, setUserId, ADMIN} = useChartData();
+
+  const navigate = useNavigate();
+
+  const handleLogin = (e) => {
+    if(userName === ADMIN.name && userId === ADMIN.uid) {
+      navigate('/productions');
+    } else {
+      alert("Only admins are allowed");
+      e.preventDefault();
+      return;
+    }
+  }
+
+  return (
+    <div className='loginPage' style={pageStyle}>
+      <div style={backgroundStyle}></div>
+      <LogoContainer />
+      <div className='signUpFormContainer bg-white w-[30rem] h-[27em] rounded-2xl m-auto'>
+          {/* <div className='welcomeScreen'>
+            <div className='label'>
+              Welcome
+            </div>
+            <div className='intro'>
+              <div className='info'>
+                <div className='icon pr-2'><BsInfoCircle /></div>
+                <div>Please select your department</div>
+              </div>
+              <div>
+                <select name="" id="" className='minesDropdown text-black' value={department} onChange={(e) => setDepartment(e.target.value)}>
+                  {
+                    DEPARTMENTS.map(d => 
+                      <option key={d} value={d}>{d}</option>
+                    )
+                  }
+                  
+                </select>
+              </div>
+            </div>
+          </div> */}
+          <form action="" className='signUpForm text-center pt-4'>
+              <h2>Login Form</h2>
+              <input type="text" id="uname" name="uname" placeholder="Username..." value={userName} onChange={(e) => setUserName(e.target.value)} /><br />
+              <input type="password" id="lname" name="lname" placeholder="Password..." value={userId} onChange={(e) => setUserId(e.target.value)} /><br />
+              <input type="submit" value="sign in" onClick={(e) => handleLogin(e)} />
+          </form>
+          <section className='text-center'>
+            Not a member?
+          </section>
+      </div>
+    </div>
+  )
+}
+
+export default LoginForm

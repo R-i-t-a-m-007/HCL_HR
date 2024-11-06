@@ -1,0 +1,741 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --color-lightgrey: rgb(229, 234, 234); */
+  --color-lightgrey: #f8f9fa;
+  --color-lightpurple: #6633991f;
+  --color-darkpurple: #d06bffc8;
+  --color-dark: #343a40;
+  --color-grey: rgb(94, 93, 93);
+  --color-red: #db0202;
+  --color-green: #067185;
+  /* --color-grey: #6c6464; */
+  --color-grey: #a6a0a0;
+  --color-darkgrey-theme: rgba(158 167 173);
+  --color-blue-theme: rgb(4 113 134);
+  --color-brightred: rgb(255 0 4);
+  --color-theme-purple2: rgb(167 139 250);
+  --color-light-green: #6edaaaff;
+  --color-light-blue: rgb(105, 164, 227);
+  --color-light-yellow: #f5ce58;
+  --color-button-blue: #185dd9;
+
+  --color-theme-purple: #50008e;
+  --color-theme-glass-purple: #50008ed4;
+  --color-theme-dark-purple: #422c63;
+  --color-theme-light-purple: #7f489a;
+  --color-theme-mauve: #ad8fb7;
+  --color-theme-green: #01c48b;
+  --color-theme-pink: #fe375f;
+  --color-theme-yellow: #fedc41;
+  --color-theme-light-yellow: #dacb89;
+  --color-theme-light-grey: #f5f6fa;
+  /* --color-theme-grey: #D2D7D9; */
+  /* --color-theme-grey: #bcbdbe; */
+  --color-theme-yellow: #ffc000;
+  --color-theme-grey: #64a33f;
+  --color-theme-dark-grey: #67757b;
+  --color-theme-dark: #454e52;
+  --color-theme-blue: #32adb9;
+
+  --orange: #fd592d;
+  /* --deepblue: #7346f4; */
+  --deepblue: #002060;
+  --mauve: #64a33f;
+  --blue: #fdc82b;
+  --lightblue: #8ebdf3;
+  --yellow: #fdc82b;
+  --green: #65eb56;
+  --deepgreen: #30cb1e;
+}
+
+body {
+  margin: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #288bfe1a; */
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.contractsContainer,
+.dashboardContainer,
+.financeContainer,
+.unitsContainer,
+.progressContainer,
+.statutoryTable,
+.hrDashboardContainer,
+.exploDashboardContainer,
+.salesDashboardContainer {
+  margin-left: 16rem;
+  margin-right: 4rem;
+  margin-top: 5.8rem;
+}
+
+.divider {
+  background-color: #00000036;
+  height: 1px;
+  margin: 23px 5px;
+}
+
+.separator {
+  background-color: #0000001c;
+  height: 2px;
+  margin: 15px 0px;
+}
+
+/* .lightDivider {
+  margin: 10px 0;
+} */
+
+/* .lmeBtn {
+  background-color: white;
+  color: rgb(0, 89, 255);
+} */
+
+.badgeGroup {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.badgeGroup > .badge {
+  min-width: 100px;
+  text-align: center;
+}
+
+.badgeGroup > .badge:not(:last-child),
+.unitStatus .chart:not(:last-child) .params {
+  border-right: 1px solid lightgray;
+}
+
+.badgeGroup > .badge > div:first-child {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.badgeGroup > .badge .label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-grey);
+}
+
+.badgeGroup > .badge .val {
+  font-weight: 600;
+}
+
+.badgeGroup > .badge .icon {
+  font-size: 18px;
+}
+
+/* Sign up form ----  */
+/* .signUpFormContainer {
+  margin: auto;
+  width: 35.2em;
+  text-align: center;
+  height: 27em;
+  align-items: center;
+  font-family: var(--font-poppins);
+  background-color: "white";
+  border-radius: 20px;
+  justify-content: space-between;
+  background: #153373;
+  opacity: 0.9;
+} */
+/* .signUpForm {
+  width: 8em;
+} */
+.signUpFormContainer > .signUpForm input:not(input[type="submit"]):not(input[type="button"]),
+.signUpFormContainer > .signUpForm select {
+  margin-bottom: 2em;
+  padding: 16px 20px;
+  width: 21em;
+  outline: none;
+  border: 0.5px solid lightgrey;
+  border-bottom: 2px solid #00000096;
+  font-size: 16px;
+}
+
+.signUpFormContainer > .signUpForm input[type="submit"],
+.signUpFormContainer > .signUpForm input[type="button"]
+ {
+  width: 7.5em;
+  outline: none;
+  border: none;
+  padding: 14px 11px;
+  border-radius: 16px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 16px;
+  scale: 0.9;
+}
+
+.signUpFormContainer > .signUpForm input[type="submit"]:hover,
+.signUpFormContainer > .signUpForm input[type="button"]:hover {
+  /* background: linear-gradient(to right, #36d1dc, #5b86e5); */
+  scale: 1;
+}
+
+.signUpFormContainer h2,
+.welcomeScreen > .label {
+  margin-bottom: 1.8em;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.loginPage {
+  /* background-color: var(--color-lightpurple); */
+  height: -webkit-fill-available;
+  padding-top: 8em;
+}
+
+.welcomeScreen {
+  width: 45%;
+  color: rgb(215, 213, 213);
+  height: 100%;
+  padding: 9% 5%;
+}
+
+/* .signUpForm {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  padding-top: 4%;
+  border-radius: inherit;
+} */
+
+.welcomeScreen select {
+  width: 214px;
+  height: 45px;
+  font-size: medium;
+  color: #000000cc;
+}
+
+.welcomeScreen .intro .info {
+  font-size: 17px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.etlLogo img {
+  width: 53px;
+  height: 66px;
+  object-fit: contain;
+  background: white;
+  border-radius: 16%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px 17px;
+}
+
+.navLogoContainer {
+  display: flex;
+  align-items: center;
+  /* position: absolute;
+  top: 26px;
+  left: 26px; */
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+}
+
+.graphLabel {
+  font-weight: 600;
+}
+
+.graphLabel,
+.graphLegend {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.statCard .graphLegend {
+  font-size: 15px;
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+}
+
+.productionStats > .label,
+.percentageChart > .label,
+.unitStatus > .label,
+.unitStatus .chart h3 {
+  color: black;
+  padding: 12px;
+}
+
+.productionStats > .label > p:first-child {
+  text-align: center;
+}
+
+.productionStats > .label > .dropDown {
+  text-align: end;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .oreProduction,
+.dashboard .micProduction {
+  display: flex;
+}
+.statOreProduction {
+  height: 420px !important;
+  margin-top: 24px !important;
+}
+
+.dashboard .oreProduction {
+  margin: 20px 5px;
+}
+
+.dashboard .oreProduction .percentageChart,
+.dashboard .micProduction .percentageChart,
+.unitStatus {
+  
+  background-color: #ffffff;
+  padding: 0px 15px;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.19);
+  border-radius: 0.75rem;
+  width: 490px;
+ font-size: medium;
+}
+
+.dashboard .productionStats .graphs {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.dashboard .productionStats .graphs > div {
+  /* min-width: 510px; */
+  min-width: 410px;
+}
+
+.minesDropdown, .react-datepicker__input-container input  {
+  background-color: #f7f7fa;
+  border: #575757;
+  border-radius: 6px;
+  color: #575757;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-out, background-color 0.15s ease-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  display: inline-block;
+  padding-right: 11px;
+  position: relative;
+  z-index: 5;
+  outline: none;
+}
+
+.contractName
+/* .react-datepicker__input-container input  */
+{
+  background: white;
+  border: 1px solid lightgray;
+  outline: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 7px 5px -6px rgba(0, 0, 0, 0.2);
+  min-width: 150px;
+}
+
+.productionStats > .label > p:first-child,
+.percentageChart > h2,
+.unitStatus > .label,
+.unitStatus .chart h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.productionStats {
+  padding: 10px 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.19);
+  border-radius: 0.75rem;
+  margin: 0px 13px;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.billingCard {
+  color: var(--color-white);
+ 
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.billingCard .value {
+  color: var(--color-dark);
+}
+
+.notificationSection {
+  height: 100%;
+}
+
+.unitStatus {
+  text-align: center;
+  width: 530px;
+}
+
+.unitStatus .chart h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.unitStatus .chart .params {
+  text-align: left;
+  color: var(--color-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unitStatus .chart .params > .param {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.unitStatus .chart .params .val {
+  color: black;
+  font-weight: 600;
+}
+
+.unitStatus .chart .params .param:last-child .val {
+  color: red;
+}
+
+.mainVal {
+  /* font-size: 20px !important; */
+  color: black !important;
+}
+
+.rangePicker {
+  font-size: 18px;
+}
+.rangePicker input {
+  margin: 0 10px;
+  background: lightgrey;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.downLoadDataSection {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--blue);
+  color: white;
+  width: fit-content;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+
+#dateResetBtn {
+  background-color: lightblue;
+  padding: 11px 10px;
+  border-radius: 5px;
+}
+
+.numberBadge {
+  display: inline-block;
+  background-color: var(--color-theme-light-purple);
+  color: white;
+  width: 26px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.detailsContainer .detail .label {
+  font-size: 15px;
+}
+
+.statCard,
+.projectDetails,
+.progressStatus {
+  /* box-shadow: 0px 0px 29px 3px rgba(0,0,0,0.10); */
+  background-color: #e3e3e3;
+}
+
+.twoSeriesProgressChart .CircularProgressbar .CircularProgressbar-text {
+  font-weight: 700;
+}
+
+.unitStatus .CircularProgressbar .CircularProgressbar-text {
+  font-weight: 700;
+}
+
+.taskDetails .stats > div {
+  padding: 10px 8px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.2);
+  /* height: fit-content; */
+  width: 100%;
+}
+
+.alertMessage {
+  /* background: antiquewhite; */
+  background: #ffffff;
+  padding: 10px 20px;
+  margin: 0 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.react-tabs__tab--selected {
+  background: var(--color-theme-blue) !important;
+  color: white !important;
+}
+
+.taskDetails .taskname {
+  border-left: 3px solid var(--color-theme-blue);
+  margin-bottom: 10px;
+  background: #32adb933;
+  padding: 6px 20px;
+}
+
+.taskDetails .details .info .label {
+  min-width: 9rem;
+  display: inline-block;
+}
+.taskDetails .details .info .progress {
+  display: none;
+}
+
+.statistics .charts {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1630px) and (min-width: 1401px) {
+  .taskDetails .details .info .progress {
+    display: block;
+  }
+  .taskDetails .details .info .progress .val {
+    color: var(--color-theme-blue);
+    font-weight: 900;
+  }
+  .taskDetails .stats .radialBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .statistics {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .sidebarToggleBtn {
+    display: none;
+  }
+  .sidebar {
+    padding-top: 5rem !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar.fixedSideBar {
+    position: fixed;
+    display: block;
+    top: 84px;
+    background-color: white;
+    z-index: 1;
+    padding-right: 22px;
+    box-shadow: 2px 8px 12px 0px rgba(0, 0, 0, 0.75);
+  }
+  .sidebar .subNav {
+    padding-left: 20px !important;
+    padding-top: 3.5rem !important;
+  }
+
+  .contractsContainer,
+  .dashboardContainer,
+  .financeContainer,
+  .unitsContainer,
+  .progressContainer,
+  .statutoryTable {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .headerLabel {
+    font-size: 22px;
+  }
+}
+
+/* sidebar */
+.sidebarToggleBtn {
+  position: fixed;
+  position: fixed;
+  top: 106px;
+  left: 28px;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.billingCard .card {
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.1);
+  /* background-image: linear-gradient(to right, white , white); */
+  /* transition: background-image 2s; */
+}
+
+.billingCard .card:hover {
+  color: white;
+  /* background-image: linear-gradient(to right, var(--deepblue) , var(--blue)); */
+  background-color: var(--deepblue);
+  cursor: pointer;
+}
+
+.billingCard .card:hover .mainVal {
+  color: white !important;
+}
+
+/* .billingCard .card {
+  position: relative;
+  box-shadow: 0px 0px 29px 3px rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+  color: black; 
+}
+
+.billingCard .card::before {
+  color: black;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, white, white);
+  opacity: 1;
+  transition: opacity 2s;
+  pointer-events: none; 
+}
+
+.billingCard .card:hover::before {
+  opacity: 0;
+}
+
+.billingCard .card:hover {
+  background-image: linear-gradient(to right, var(--deepblue), var(--blue));
+  cursor: pointer;
+  color: white; 
+} */
+
+.charts .statChart {
+  margin: auto;
+  width: 370px;
+}
+
+@media screen and (max-width: 1153px) and (min-width: 1101px) {
+  .charts .statChart {
+    width: 340px;
+  }
+}
+
+/* Add this to your CSS file */
+
+.blueButton {
+  background-color: var(--deepblue);
+  margin: 3px;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: 700;
+  min-width: 153px;
+}
+
+.blueButton:hover,
+.blueButton.selected {
+  background-color: var(--blue); /* You can adjust the hover color if needed */
+}
+
+.lastUpdateDate {
+  background: var(--color-theme-yellow);
+  padding: 10px 30px;
+  width: fit-content;
+  color: #002060;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigationBtn {
+  padding: 10px 30px;
+  width: fit-content;
+  color: var(--deepblue);
+  background: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+}
+
+/* .react-datepicker-wrapper,
+.react-datepicker__input-container, */
+.react-datepicker__input-container input {
+  min-width: 90px !important;
+  max-width: 90px;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* .overallEmpComp foreignObject {
+  height: 14rem;
+} */
+
+.compPerGrade .rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn {
+  width: 133px !important;
+}
